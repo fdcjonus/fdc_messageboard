@@ -1,0 +1,198 @@
+2024-05-07 08:17:24 Error: [MissingViewException] View file "Test/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Test/index.ctp',
+)
+Request URL: /cakephp/api/test
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName('Test/index')
+#1 /Applications/XAMPP/xamppfiles/htdocs/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/XAMPP/xamppfiles/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TestController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-05-07 08:18:21 Error: [MissingViewException] View file "Test/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Test/index.ctp',
+)
+Request URL: /cakephp/api/test
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName('Test/index')
+#1 /Applications/XAMPP/xamppfiles/htdocs/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/XAMPP/xamppfiles/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TestController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-05-07 08:18:22 Error: [MissingViewException] View file "Test/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Test/index.ctp',
+)
+Request URL: /cakephp/api/test
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName('Test/index')
+#1 /Applications/XAMPP/xamppfiles/htdocs/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/XAMPP/xamppfiles/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TestController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-05-07 08:18:23 Error: [MissingViewException] View file "Test/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Test/index.ctp',
+)
+Request URL: /cakephp/api/test
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName('Test/index')
+#1 /Applications/XAMPP/xamppfiles/htdocs/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/XAMPP/xamppfiles/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TestController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-05-07 08:18:23 Error: [MissingViewException] View file "Test/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Test/index.ctp',
+)
+Request URL: /cakephp/api/test
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName('Test/index')
+#1 /Applications/XAMPP/xamppfiles/htdocs/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/XAMPP/xamppfiles/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TestController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-05-07 08:18:23 Error: [MissingViewException] View file "Test/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Test/index.ctp',
+)
+Request URL: /cakephp/api/test
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName('Test/index')
+#1 /Applications/XAMPP/xamppfiles/htdocs/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/XAMPP/xamppfiles/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TestController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-05-07 08:18:24 Error: [MissingViewException] View file "Test/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Test/index.ctp',
+)
+Request URL: /cakephp/api/test
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName('Test/index')
+#1 /Applications/XAMPP/xamppfiles/htdocs/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/XAMPP/xamppfiles/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TestController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-05-07 08:18:24 Error: [MissingViewException] View file "Test/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Test/index.ctp',
+)
+Request URL: /cakephp/api/test
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName('Test/index')
+#1 /Applications/XAMPP/xamppfiles/htdocs/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/XAMPP/xamppfiles/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TestController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-05-07 08:18:24 Error: [MissingViewException] View file "Test/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Test/index.ctp',
+)
+Request URL: /cakephp/api/test
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName('Test/index')
+#1 /Applications/XAMPP/xamppfiles/htdocs/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/XAMPP/xamppfiles/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TestController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-05-07 08:18:24 Error: [MissingViewException] View file "Test/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Test/index.ctp',
+)
+Request URL: /cakephp/api/test
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName('Test/index')
+#1 /Applications/XAMPP/xamppfiles/htdocs/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/XAMPP/xamppfiles/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TestController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-05-07 08:18:25 Error: [MissingViewException] View file "Test/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Test/index.ctp',
+)
+Request URL: /cakephp/api/test
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName('Test/index')
+#1 /Applications/XAMPP/xamppfiles/htdocs/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/XAMPP/xamppfiles/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TestController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-05-07 08:18:25 Error: [MissingViewException] View file "Test/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Test/index.ctp',
+)
+Request URL: /cakephp/api/test
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName('Test/index')
+#1 /Applications/XAMPP/xamppfiles/htdocs/cakephp/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/XAMPP/xamppfiles/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TestController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-05-07 08:18:31 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-05-07 08:18:47 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-05-07 08:18:48 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-05-07 08:27:42 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-05-07 08:30:45 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-05-09 03:06:45 Error: [MissingControllerException] Controller class PublicController could not be found.
+Exception Attributes: array (
+  'class' => 'PublicController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/public/pages/test.html
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
