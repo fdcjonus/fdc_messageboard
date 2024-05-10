@@ -115,9 +115,6 @@ class UsersController extends AppController
     }
 
 
-
-
-
     private function readCookie() {
         // Load the CookieComponent
         $this->Cookie = $this->Components->load('Cookie');
