@@ -1,10 +1,5 @@
 <?php
 /**
- * Application model for CakePHP.
- *
- * This file is application-wide model file. You can put all
- * application-wide model-related methods here.
- *
  * CakePHP(tm) : Rapid Development Framework (https://cakephp.org)
  * Copyright (c) Cake Software Foundation, Inc. (https://cakefoundation.org)
  *
@@ -14,21 +9,18 @@
  *
  * @copyright     Copyright (c) Cake Software Foundation, Inc. (https://cakefoundation.org)
  * @link          https://cakephp.org CakePHP(tm) Project
- * @package       app.Model
- * @since         CakePHP(tm) v 0.2.9
+ * @package       app.View.Errors
+ * @since         CakePHP(tm) v 0.10.0.1076
  * @license       https://opensource.org/licenses/mit-license.php MIT License
  */
-
-App::uses('Model', 'Model');
-
-/**
- * Application model for Cake.
- *
- * Add your application-wide methods in the class below, your models
- * will inherit them.
- *
- * @package       app.Model
- */
-class AppModel extends Model {
-    
-}
+?>
+<h2><?php echo $message; ?></h2>
+<p class="error">
+	<strong><?php echo __d('cake', 'Error'); ?>: </strong>
+	<?php echo __d('cake', 'An Internal Error Has Occurred.'); ?>
+</p>
+<?php
+if (Configure::read('debug') > 0):
+	echo $this->element('exception_stack_trace');
+endif;
+?>

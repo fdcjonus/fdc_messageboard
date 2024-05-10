@@ -1,0 +1,92 @@
+{
+	"users": [
+		{
+			"columns": [
+				{
+					"id": "int | auto increment | primary key",
+					"name": "varchar | not null",
+					"username": "varchar | unique | not null",
+					"password": "varchar | not null",
+					"created": "varchar | not null",
+					"updated": "varchar | nullable",
+					"flag": "int | not null | default:1",
+					"last_login_time": "varchar | not null",
+					"img_url": "varchar | nullable",
+					"birthdate": "varchar | nullable",
+					"gender": "varchar | nullable",
+					"hubby": "text | nullable"
+				}
+			],
+			"relationship": "none"
+		}
+	],
+	"secrets": [
+		{
+			"columns": [
+				{
+					"id": "int | auto increment | primary key",
+					"user_id": "int | not null",
+					"token": "varchar | not null",
+					"created": "varchar | not null"
+				}
+			],
+			"relationship": "none"
+		}
+	],
+	"messages": [
+		{
+			"columns": [
+				{
+					"id": "int | auto increment | primary key",
+					"user_id": "int | not null",
+					"message_id": "int | not null",
+					"message": "text | not null",
+					"created": "varchar | not null"
+				}
+			],
+			"relationship": "none"
+		}
+	],
+	"messagelits": [
+		{
+			"columns": [
+				{
+					"id": "int | auto increment | primary key",
+					"user_id": "int | not null",
+					"message_id": "int | not null",
+					"created": "varchar | not null"
+				}
+			],
+			"relationship": "none"
+		}
+	],
+	"logs": [
+		{
+			"columns": [
+				{
+					"id": "int | auto increment | primary key",
+					"userid": "int | not null",
+					"ip": "varchar | not null",
+					"created": "varchar | not null",
+					"type": "varchar | not null"
+				}
+			],
+			"relationship": "none"
+		}
+	],
+	"deletedmessages": [
+		{
+			"columns": [
+				{
+					"id": "int | auto increment | primary key",
+					"user_id": "int | not null",
+					"message_id": "int | not null",
+					"message": "varchar | not null",
+					"created": "varchar | not null",
+					"deleted": "varchar | nullable"
+				}
+			],
+			"relationship": "none"
+		}
+	]
+}

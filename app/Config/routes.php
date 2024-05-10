@@ -31,8 +31,14 @@
  */
 	Router::connect('/pages/*', array('controller' => 'pages', 'action' => 'display'));
 
-	Router::connect('/api/hello_world', array('controller' => 'tests', 'action' => 'helloWorld', 'ext' => 'json'));
-	
+
+	// API URL
+	// for user
+	Router::connect('/api/v1/users', array('controller' => 'users', 'action' => 'getusers', 'ext' => 'json'));
+	Router::connect('/api/v1/login', array('controller' => 'users', 'action' => 'login', 'ext' => 'json'));
+	Router::connect('/api/v1/register', array('controller' => 'users', 'action' => 'register', 'ext' => 'json'));
+	Router::connect('/api/v1/update', array('controller' => 'users', 'action' => 'update', 'ext' => 'json'));
+	Router::connect('/api/v1/delete', array('controller' => 'users', 'action' => 'delete', 'ext' => 'json'));
 
 /**
  * Load all plugin routes. See the CakePlugin documentation on

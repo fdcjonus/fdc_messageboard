@@ -31,4 +31,58 @@ App::uses('Controller', 'Controller');
  * @link		https://book.cakephp.org/2.0/en/controllers.html#the-app-controller
  */
 class AppController extends Controller {
+    public function beforeFilter() {
+        // Call parent's beforeFilter
+        parent::beforeFilter();
+
+        // Custom logic to handle incoming requests
+        // This code will be executed before any controller action is invoked
+        if (!$this->authenticate()) {
+            // Handle unauthorized access
+            $this->response->statusCode(401);
+            $this->response->send(); // Send the response
+            exit; // Stop further execution
+        }
+    }
+
+    protected function authenticate() {
+        $header = $this->request->header('Authorization');
+        // Remove "Basic " prefix
+        $base64Credentials = substr($header, 6);
+        // Decode base64-encoded credentials
+        $credentials = base64_decode($base64Credentials);
+        // Split username and password
+        list($username, $password) = explode(':', $credentials);
+        
+        $envVariables = $this->parseEnv(__DIR__."/.env");
+
+        return $envVariables['user'] == $username && $envVariables['pass'] == $password;
+    }
+    
+    private function parseEnv($filePath) {
+        $file = fopen($filePath, 'r');
+        $envVariables = [];
+    
+        // Read each line of the file
+        while (($line = fgets($file)) !== false) {
+            // Ignore lines starting with '#' (comments) or empty lines
+            if (strpos(trim($line), '#') === 0 || trim($line) === '') {
+                continue;
+            }
+            // Split each line by the '=' sign
+            list($key, $value) = explode('=', $line, 2);
+            
+            // Remove any surrounding whitespace and quotes from the value
+            $value = trim($value);
+            if (in_array(substr($value, 0, 1), ['"', "'"]) && substr($value, 0, 1) === substr($value, -1)) {
+                $value = substr($value, 1, -1);
+            }
+    
+            // Store key-value pairs in the array
+            $envVariables[$key] = $value;
+        }
+    
+        fclose($file);
+        return $envVariables;
+    }
 }

@@ -196,3 +196,1987 @@ Request URL: /cakephp/public/pages/test.html
 Stack Trace:
 #0 /Applications/XAMPP/xamppfiles/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2024-05-09 07:50:26 Error: [MissingControllerException] Controller class LoginController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginController',
+  'plugin' => NULL,
+)
+Request URL: /fdc_messageboard/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-05-09 07:52:29 Error: [MissingViewException] View file "Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/login.ctp',
+)
+Request URL: /fdc_messageboard/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/View/View.php(470): View->_getViewFileName('Users/login')
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-05-09 07:54:36 Error: [MissingViewException] View file "Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/login.ctp',
+)
+Request URL: /fdc_messageboard/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/View/View.php(470): View->_getViewFileName('Users/login')
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-05-09 07:54:40 Error: [MissingViewException] View file "Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/login.ctp',
+)
+Request URL: /fdc_messageboard/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/View/View.php(470): View->_getViewFileName('Users/login')
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-05-09 07:54:40 Error: [MissingViewException] View file "Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/login.ctp',
+)
+Request URL: /fdc_messageboard/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/View/View.php(470): View->_getViewFileName('Users/login')
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-05-09 07:54:41 Error: [MissingViewException] View file "Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/login.ctp',
+)
+Request URL: /fdc_messageboard/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/View/View.php(470): View->_getViewFileName('Users/login')
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-05-09 07:57:19 Error: [MissingViewException] View file "Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/login.ctp',
+)
+Request URL: /fdc_messageboard/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/View/View.php(470): View->_getViewFileName('Users/login')
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-05-09 08:13:33 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /fdc_messageboard/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2024-05-09 08:13:43 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /fdc_messageboard/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2024-05-09 08:44:43 Error: [MissingViewException] View file "Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/login.ctp',
+)
+Request URL: /fdc_messageboard/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/View/View.php(470): View->_getViewFileName('Users/login')
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-05-09 08:53:44 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /fdc_messageboard/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2024-05-09 08:55:15 Error: [MissingControllerException] Controller class ApiController could not be found.
+Exception Attributes: array (
+  'class' => 'ApiController',
+  'plugin' => NULL,
+)
+Request URL: /fdc_messageboard/api/index
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-05-09 08:56:25 Error: [MissingViewException] View file "Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/index.ctp',
+)
+Request URL: /fdc_messageboard/users/index
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/View/View.php(470): View->_getViewFileName('Users/index')
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-05-09 08:57:39 Error: [MissingControllerException] Controller class ApiController could not be found.
+Exception Attributes: array (
+  'class' => 'ApiController',
+  'plugin' => NULL,
+)
+Request URL: /fdc_messageboard/api/index
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-05-09 08:58:16 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.username' in 'where clause'
+Request URL: /fdc_messageboard/users/index
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(1226): DboSource->fetchAll('SELECT `User`.`...', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(3053): DboSource->read(Object(AppModel), Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(3025): Model->_readDataSource('first', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Component/Auth/BaseAuthenticate.php(129): Model->find('first', Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Component/Auth/BasicAuthenticate.php(97): BaseAuthenticate->_findUser('example@example...', 'password123')
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Component/AuthComponent.php(698): BasicAuthenticate->getUser(Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Component/AuthComponent.php(301): AuthComponent->_getUser()
+#10 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Utility/ObjectCollection.php(129): AuthComponent->startup(Object(UsersController))
+#11 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Event/CakeEventManager.php(244): ObjectCollection->trigger('startup')
+#12 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(683): CakeEventManager->dispatch(Object(CakeEvent))
+#13 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#14 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2024-05-09 08:59:25 Error: [MissingViewException] View file "Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/index.ctp',
+)
+Request URL: /fdc_messageboard/users/index
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/View/View.php(470): View->_getViewFileName('Users/index')
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-05-09 09:03:17 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /fdc_messageboard/users/index
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-05-09 09:04:22 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /fdc_messageboard/users/index
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-05-09 09:18:33 Error: [MissingViewException] View file "Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/index.ctp',
+)
+Request URL: /fdc_messageboard/users/index
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/View/View.php(470): View->_getViewFileName('Users/index')
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-05-09 09:19:58 Error: [MissingViewException] View file "Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/index.ctp',
+)
+Request URL: /fdc_messageboard/users/index
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/View/View.php(470): View->_getViewFileName('Users/index')
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-05-09 09:20:39 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /fdc_messageboard/users/index
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-05-09 09:20:54 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /fdc_messageboard/users/index
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-05-09 09:21:45 Error: [MissingViewException] View file "Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/index.ctp',
+)
+Request URL: /fdc_messageboard/users/index
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/View/View.php(470): View->_getViewFileName('Users/index')
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-05-09 09:22:23 Error: [UnauthorizedException] Unauthorized
+Request URL: /fdc_messageboard/users/index
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Component/AuthComponent.php(350): BasicAuthenticate->unauthenticated(Object(CakeRequest), Object(CakeResponse))
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Component/AuthComponent.php(306): AuthComponent->_unauthenticated(Object(UsersController))
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Utility/ObjectCollection.php(129): AuthComponent->startup(Object(UsersController))
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Event/CakeEventManager.php(244): ObjectCollection->trigger('startup')
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(683): CakeEventManager->dispatch(Object(CakeEvent))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#6 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#7 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2024-05-09 09:23:42 Error: [UnauthorizedException] Unauthorized
+Request URL: /fdc_messageboard/users/index
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Component/AuthComponent.php(350): BasicAuthenticate->unauthenticated(Object(CakeRequest), Object(CakeResponse))
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Component/AuthComponent.php(306): AuthComponent->_unauthenticated(Object(UsersController))
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Utility/ObjectCollection.php(129): AuthComponent->startup(Object(UsersController))
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Event/CakeEventManager.php(244): ObjectCollection->trigger('startup')
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(683): CakeEventManager->dispatch(Object(CakeEvent))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#6 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#7 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2024-05-09 09:24:07 Error: [MissingControllerException] Controller class ApiController could not be found.
+Exception Attributes: array (
+  'class' => 'ApiController',
+  'plugin' => NULL,
+)
+Request URL: /fdc_messageboard/api/index
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-05-09 09:24:31 Error: [UnauthorizedException] Unauthorized
+Request URL: /fdc_messageboard/users/index
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Component/AuthComponent.php(350): BasicAuthenticate->unauthenticated(Object(CakeRequest), Object(CakeResponse))
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Component/AuthComponent.php(306): AuthComponent->_unauthenticated(Object(UsersController))
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Utility/ObjectCollection.php(129): AuthComponent->startup(Object(UsersController))
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Event/CakeEventManager.php(244): ObjectCollection->trigger('startup')
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(683): CakeEventManager->dispatch(Object(CakeEvent))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#6 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#7 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2024-05-09 10:01:44 Error: [MissingControllerException] Controller class ApiController could not be found.
+Exception Attributes: array (
+  'class' => 'ApiController',
+  'plugin' => NULL,
+)
+Request URL: /fdc_messageboard/api/hello_world
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-05-09 10:01:45 Error: [MissingControllerException] Controller class ApiController could not be found.
+Exception Attributes: array (
+  'class' => 'ApiController',
+  'plugin' => NULL,
+)
+Request URL: /fdc_messageboard/api/hello_world
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-05-09 10:35:51 Error: [MissingControllerException] Controller class ApiController could not be found.
+Exception Attributes: array (
+  'class' => 'ApiController',
+  'plugin' => NULL,
+)
+Request URL: /fdc_messageboard/api/v1//api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-05-09 10:42:48 Error: [Error] Class 'Security' not found
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php(33): UsersController->validatePassword('password123', NULL)
+#1 [internal function]: UsersController->login()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-05-09 10:44:53 Error: [Error] Class 'Security' not found
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php(33): UsersController->validatePassword('password123', 'password123')
+#1 [internal function]: UsersController->login()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-05-09 10:44:55 Error: [Error] Class 'Security' not found
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php(33): UsersController->validatePassword('password123', 'password123')
+#1 [internal function]: UsersController->login()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-05-09 10:46:39 Error: [Error] Class 'Security' not found
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php(33): UsersController->validatePassword('password123', 'password123')
+#1 [internal function]: UsersController->login()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-05-09 10:46:40 Error: [Error] Class 'Security' not found
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php(33): UsersController->validatePassword('password123', 'password123')
+#1 [internal function]: UsersController->login()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-05-09 10:48:39 Error: [Error] Class 'Security' not found
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php(33): UsersController->validatePassword('password123', NULL)
+#1 [internal function]: UsersController->login()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-05-09 10:50:06 Error: [Error] Class 'Security' not found
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php(33): UsersController->validatePassword('password123', NULL)
+#1 [internal function]: UsersController->login()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-05-09 10:51:26 Error: [Error] Class 'Security' not found
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php(33): UsersController->validatePassword('password123', NULL)
+#1 [internal function]: UsersController->login()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-05-09 10:51:26 Error: [Error] Class 'Security' not found
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php(33): UsersController->validatePassword('password123', NULL)
+#1 [internal function]: UsersController->login()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-05-09 10:51:27 Error: [Error] Class 'Security' not found
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php(33): UsersController->validatePassword('password123', NULL)
+#1 [internal function]: UsersController->login()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-05-09 10:52:45 Error: [Error] Class 'Security' not found
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php(33): UsersController->validatePassword('password123', 'password123')
+#1 [internal function]: UsersController->login()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-05-09 10:54:24 Error: [Error] Class 'Security' not found
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php(33): UsersController->validatePassword('password123', 'password123')
+#1 [internal function]: UsersController->login()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-05-09 10:54:25 Error: [Error] Class 'Security' not found
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php(33): UsersController->validatePassword('password123', 'password123')
+#1 [internal function]: UsersController->login()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-05-09 10:54:26 Error: [Error] Class 'Security' not found
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php(33): UsersController->validatePassword('password123', 'password123')
+#1 [internal function]: UsersController->login()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-05-09 10:55:57 Error: [Error] Class 'Security' not found
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php(34): UsersController->validatePassword('password123', 'password123')
+#1 [internal function]: UsersController->login()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-05-09 10:56:10 Error: [Error] Class 'Security' not found
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php(34): UsersController->validatePassword('password123', 'password123')
+#1 [internal function]: UsersController->login()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-05-09 10:56:11 Error: [Error] Class 'Security' not found
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php(34): UsersController->validatePassword('password123', 'password123')
+#1 [internal function]: UsersController->login()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-05-09 10:56:11 Error: [Error] Class 'Security' not found
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php(34): UsersController->validatePassword('password123', 'password123')
+#1 [internal function]: UsersController->login()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-05-09 10:56:22 Error: [Error] Class 'Security' not found
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php(33): UsersController->validatePassword('password123', 'password123')
+#1 [internal function]: UsersController->login()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-05-09 10:59:21 Error: [Error] Call to undefined function validatePassword()
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-05-09 11:00:06 Error: [Error] Class 'Security' not found
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php(33): UsersController->validatePassword('password123', 'password123')
+#1 [internal function]: UsersController->login()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-05-09 11:02:38 Error: [Error] Class 'Security' not found
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php(54): UsersController->validatePassword('password123', 'password123')
+#1 [internal function]: UsersController->login()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-05-09 11:05:55 Error: [Error] Class 'Security' not found
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php(54): UsersController->validatePassword('password123', 'password123')
+#1 [internal function]: UsersController->login()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-05-09 11:05:56 Error: [Error] Class 'Security' not found
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php(54): UsersController->validatePassword('password123', 'password123')
+#1 [internal function]: UsersController->login()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-05-09 11:05:57 Error: [Error] Class 'Security' not found
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php(54): UsersController->validatePassword('password123', 'password123')
+#1 [internal function]: UsersController->login()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-05-09 11:05:57 Error: [Error] Class 'Security' not found
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php(54): UsersController->validatePassword('password123', 'password123')
+#1 [internal function]: UsersController->login()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-05-09 11:06:09 Error: [Error] Class 'Security' not found
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php(54): UsersController->validatePassword('password123', 'password123')
+#1 [internal function]: UsersController->login()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-05-09 11:06:10 Error: [Error] Class 'Security' not found
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php(54): UsersController->validatePassword('password123', 'password123')
+#1 [internal function]: UsersController->login()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-05-09 11:06:10 Error: [Error] Class 'Security' not found
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php(54): UsersController->validatePassword('password123', 'password123')
+#1 [internal function]: UsersController->login()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-05-09 11:24:37 Error: [Error] Class 'Security' not found
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php(54): UsersController->validatePassword('password123', 'password123')
+#1 [internal function]: UsersController->login()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-05-09 11:26:54 Error: [Error] Class 'Security' not found
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php(54): UsersController->validatePassword('password123', 'password123')
+#1 [internal function]: UsersController->login()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-05-09 11:26:55 Error: [Error] Class 'Security' not found
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php(54): UsersController->validatePassword('password123', 'password123')
+#1 [internal function]: UsersController->login()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-05-09 11:27:10 Error: [Error] Class 'Security' not found
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php(54): UsersController->validatePassword('password123', 'password123')
+#1 [internal function]: UsersController->login()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-05-09 11:27:11 Error: [Error] Class 'Security' not found
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php(54): UsersController->validatePassword('password123', 'password123')
+#1 [internal function]: UsersController->login()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-05-09 11:27:11 Error: [Error] Class 'Security' not found
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php(54): UsersController->validatePassword('password123', 'password123')
+#1 [internal function]: UsersController->login()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-05-09 11:27:12 Error: [Error] Class 'Security' not found
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php(54): UsersController->validatePassword('password123', 'password123')
+#1 [internal function]: UsersController->login()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-05-09 11:37:57 Error: [Error] Class 'Security' not found
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-05-09 11:37:59 Error: [Error] Class 'Security' not found
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-05-09 11:38:50 Error: [Error] Class 'Security' not found
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-05-09 11:38:51 Error: [Error] Class 'Security' not found
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-05-09 11:38:52 Error: [Error] Class 'Security' not found
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-05-10 03:56:28 Error: [ParseError] syntax error, unexpected ';', expecting ')'
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-05-10 03:57:57 Error: [ParseError] syntax error, unexpected ';', expecting ')'
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-05-10 03:57:58 Error: [ParseError] syntax error, unexpected ';', expecting ')'
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-05-10 03:59:21 Error: [ParseError] syntax error, unexpected ';', expecting ')'
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-05-10 03:59:21 Error: [ParseError] syntax error, unexpected ';', expecting ')'
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-05-10 04:00:25 Error: [ParseError] syntax error, unexpected ';', expecting ')'
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-05-10 04:00:26 Error: [ParseError] syntax error, unexpected ';', expecting ')'
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-05-10 04:01:29 Error: [ParseError] syntax error, unexpected ';', expecting ')'
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-05-10 04:01:30 Error: [ParseError] syntax error, unexpected ';', expecting ')'
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-05-10 04:03:14 Error: [ParseError] syntax error, unexpected ';', expecting ')'
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-05-10 04:03:14 Error: [ParseError] syntax error, unexpected ';', expecting ')'
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-05-10 04:03:15 Error: [ParseError] syntax error, unexpected ';', expecting ')'
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-05-10 04:03:16 Error: [ParseError] syntax error, unexpected ';', expecting ')'
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-05-10 04:03:21 Error: [ParseError] syntax error, unexpected ';', expecting ')'
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-05-10 04:03:22 Error: [ParseError] syntax error, unexpected ';', expecting ')'
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-05-10 04:03:30 Error: [ParseError] syntax error, unexpected ';', expecting ')'
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-05-10 04:03:30 Error: [ParseError] syntax error, unexpected ';', expecting ')'
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-05-10 04:04:06 Error: [ParseError] syntax error, unexpected ';', expecting ')'
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-05-10 04:04:07 Error: [ParseError] syntax error, unexpected ';', expecting ')'
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-05-10 04:05:16 Error: [ParseError] syntax error, unexpected ';', expecting ')'
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-05-10 04:05:16 Error: [ParseError] syntax error, unexpected ';', expecting ')'
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-05-10 04:05:21 Error: [ParseError] syntax error, unexpected ';', expecting ')'
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-05-10 04:05:22 Error: [ParseError] syntax error, unexpected ';', expecting ')'
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-05-10 10:05:37 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'name' doesn't have a default value
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('INSERT INTO `fd...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(1132): DboSource->execute('INSERT INTO `fd...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(1942): DboSource->create(Object(AppModel), Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(1712): Model->save(Array, Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php(36): Model->saveField('last_login_time', '2024-05-10 10:0...')
+#7 [internal function]: UsersController->login()
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2024-05-10 04:10:32 Error: [ParseError] syntax error, unexpected ','
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-05-10 10:11:47 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '10:11:47  WHERE `User`.`id` = 1' at line 1
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('UPDATE `fdc_jon...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/Database/Mysql.php(425): DboSource->execute('UPDATE `fdc_jon...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(2672): Mysql->update(Object(AppModel), '`User`.`last_lo...', NULL, ' WHERE `User`.`...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php(38): Model->updateAll(Array, Array)
+#5 [internal function]: UsersController->login()
+#6 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2024-05-10 10:14:19 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '10:14:19  WHERE `User`.`id` = 1' at line 1
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('UPDATE `fdc_jon...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/Database/Mysql.php(425): DboSource->execute('UPDATE `fdc_jon...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(2672): Mysql->update(Object(AppModel), '`User`.`last_lo...', NULL, ' WHERE `User`.`...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php(38): Model->updateAll(Array, Array)
+#5 [internal function]: UsersController->login()
+#6 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2024-05-10 10:15:31 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '10:15:31  WHERE `User`.`id` = 1' at line 1
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('UPDATE `fdc_jon...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/Database/Mysql.php(425): DboSource->execute('UPDATE `fdc_jon...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(2672): Mysql->update(Object(AppModel), '`User`.`last_lo...', NULL, ' WHERE `User`.`...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php(38): Model->updateAll(Array, Array)
+#5 [internal function]: UsersController->login()
+#6 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2024-05-10 10:17:51 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '10:17:51  WHERE `User`.`id` = 1' at line 1
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('UPDATE `fdc_jon...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/Database/Mysql.php(425): DboSource->execute('UPDATE `fdc_jon...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(2672): Mysql->update(Object(AppModel), '`User`.`last_lo...', NULL, ' WHERE `User`.`...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php(38): Model->updateAll(Array, Array)
+#5 [internal function]: UsersController->login()
+#6 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2024-05-10 10:17:52 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '10:17:52  WHERE `User`.`id` = 1' at line 1
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('UPDATE `fdc_jon...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/Database/Mysql.php(425): DboSource->execute('UPDATE `fdc_jon...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(2672): Mysql->update(Object(AppModel), '`User`.`last_lo...', NULL, ' WHERE `User`.`...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php(38): Model->updateAll(Array, Array)
+#5 [internal function]: UsersController->login()
+#6 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2024-05-10 10:19:49 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '10:19:49  WHERE `User`.`id` = 1' at line 1
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('UPDATE `fdc_jon...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/Database/Mysql.php(425): DboSource->execute('UPDATE `fdc_jon...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(2672): Mysql->update(Object(AppModel), '`User`.`last_lo...', NULL, ' WHERE `User`.`...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php(38): Model->updateAll(Array, Array)
+#5 [internal function]: UsersController->login()
+#6 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2024-05-10 10:19:52 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '10:19:52  WHERE `User`.`id` = 1' at line 1
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('UPDATE `fdc_jon...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/Database/Mysql.php(425): DboSource->execute('UPDATE `fdc_jon...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(2672): Mysql->update(Object(AppModel), '`User`.`last_lo...', NULL, ' WHERE `User`.`...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php(38): Model->updateAll(Array, Array)
+#5 [internal function]: UsersController->login()
+#6 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2024-05-10 10:19:55 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '10:19:55  WHERE `User`.`id` = 1' at line 1
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('UPDATE `fdc_jon...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/Database/Mysql.php(425): DboSource->execute('UPDATE `fdc_jon...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(2672): Mysql->update(Object(AppModel), '`User`.`last_lo...', NULL, ' WHERE `User`.`...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php(38): Model->updateAll(Array, Array)
+#5 [internal function]: UsersController->login()
+#6 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2024-05-10 10:19:55 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '10:19:55  WHERE `User`.`id` = 1' at line 1
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('UPDATE `fdc_jon...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/Database/Mysql.php(425): DboSource->execute('UPDATE `fdc_jon...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(2672): Mysql->update(Object(AppModel), '`User`.`last_lo...', NULL, ' WHERE `User`.`...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php(38): Model->updateAll(Array, Array)
+#5 [internal function]: UsersController->login()
+#6 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2024-05-10 10:20:17 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('update', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('update', Array, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(648): DboSource->fetchAll('update', Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(834): DboSource->query('update', Array, Object(AppModel))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php(38): Model->__call('update', Array)
+#6 [internal function]: UsersController->login()
+#7 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2024-05-10 10:24:39 Error: [Error] Call to a member function save() on null
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 [internal function]: UsersController->login()
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-05-10 04:34:19 Error: [ParseError] syntax error, unexpected ';', expecting ')'
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-05-10 04:35:10 Error: [ParseError] syntax error, unexpected ';', expecting ')'
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-05-10 04:35:11 Error: [ParseError] syntax error, unexpected ';', expecting ')'
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-05-10 04:35:12 Error: [ParseError] syntax error, unexpected ';', expecting ')'
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-05-10 04:35:12 Error: [ParseError] syntax error, unexpected ';', expecting ')'
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-05-10 04:35:13 Error: [ParseError] syntax error, unexpected ';', expecting ')'
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-05-10 04:35:14 Error: [ParseError] syntax error, unexpected ';', expecting ')'
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-05-10 10:38:14 Error: [MissingTableException] Table logs for model Log was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'logs',
+  'class' => 'Log',
+  'ds' => 'default',
+)
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(3686): Model->setSource('logs')
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(1757): Model->getDataSource()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php(131): Model->save(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php(38): UsersController->addAccessLogs('1', 'login')
+#4 [internal function]: UsersController->login()
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2024-05-10 10:38:47 Error: [MissingTableException] Table logs for model Log was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'logs',
+  'class' => 'Log',
+  'ds' => 'default',
+)
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(3686): Model->setSource('logs')
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(1757): Model->getDataSource()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php(131): Model->save(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php(38): UsersController->addAccessLogs('1', 'login')
+#4 [internal function]: UsersController->login()
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2024-05-10 10:38:48 Error: [MissingTableException] Table logs for model Log was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'logs',
+  'class' => 'Log',
+  'ds' => 'default',
+)
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(3686): Model->setSource('logs')
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(1757): Model->getDataSource()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php(131): Model->save(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php(38): UsersController->addAccessLogs('1', 'login')
+#4 [internal function]: UsersController->login()
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2024-05-10 11:32:23 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'last_login_time' doesn't have a default value
+Request URL: /fdc_messageboard/api/v1/register
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('INSERT INTO `fd...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(1132): DboSource->execute('INSERT INTO `fd...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(1942): DboSource->create(Object(AppModel), Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php(63): Model->save(Array)
+#6 [internal function]: UsersController->register()
+#7 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2024-05-10 11:32:38 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'last_login_time' doesn't have a default value
+Request URL: /fdc_messageboard/api/v1/register
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('INSERT INTO `fd...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(1132): DboSource->execute('INSERT INTO `fd...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(1942): DboSource->create(Object(AppModel), Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php(63): Model->save(Array)
+#6 [internal function]: UsersController->register()
+#7 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2024-05-10 11:33:03 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'last_login_time' doesn't have a default value
+Request URL: /fdc_messageboard/api/v1/register
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('INSERT INTO `fd...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(1132): DboSource->execute('INSERT INTO `fd...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(1942): DboSource->create(Object(AppModel), Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php(63): Model->save(Array)
+#6 [internal function]: UsersController->register()
+#7 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2024-05-10 11:33:04 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'last_login_time' doesn't have a default value
+Request URL: /fdc_messageboard/api/v1/register
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('INSERT INTO `fd...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(1132): DboSource->execute('INSERT INTO `fd...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(1942): DboSource->create(Object(AppModel), Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php(63): Model->save(Array)
+#6 [internal function]: UsersController->register()
+#7 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2024-05-10 11:33:05 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'last_login_time' doesn't have a default value
+Request URL: /fdc_messageboard/api/v1/register
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('INSERT INTO `fd...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(1132): DboSource->execute('INSERT INTO `fd...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(1942): DboSource->create(Object(AppModel), Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php(63): Model->save(Array)
+#6 [internal function]: UsersController->register()
+#7 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2024-05-10 11:33:17 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'last_login_time' doesn't have a default value
+Request URL: /fdc_messageboard/api/v1/register
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('INSERT INTO `fd...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(1132): DboSource->execute('INSERT INTO `fd...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(1942): DboSource->create(Object(AppModel), Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php(63): Model->save(Array)
+#6 [internal function]: UsersController->register()
+#7 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2024-05-10 11:38:40 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'img_url' doesn't have a default value
+Request URL: /fdc_messageboard/api/v1/register
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('INSERT INTO `fd...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(1132): DboSource->execute('INSERT INTO `fd...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(1942): DboSource->create(Object(AppModel), Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php(64): Model->save(Array)
+#6 [internal function]: UsersController->register()
+#7 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2024-05-10 11:38:42 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'img_url' doesn't have a default value
+Request URL: /fdc_messageboard/api/v1/register
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('INSERT INTO `fd...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(1132): DboSource->execute('INSERT INTO `fd...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(1942): DboSource->create(Object(AppModel), Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php(64): Model->save(Array)
+#6 [internal function]: UsersController->register()
+#7 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2024-05-10 11:38:42 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'img_url' doesn't have a default value
+Request URL: /fdc_messageboard/api/v1/register
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('INSERT INTO `fd...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(1132): DboSource->execute('INSERT INTO `fd...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(1942): DboSource->create(Object(AppModel), Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php(64): Model->save(Array)
+#6 [internal function]: UsersController->register()
+#7 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2024-05-10 06:59:44 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required './ServiceController.php' (include_path='/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib:.:/Applications/XAMPP/xamppfiles/lib/php') in [/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php, line 2]
+2024-05-10 06:59:44 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required './ServiceController.php' (include_path='/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib:.:/Applications/XAMPP/xamppfiles/lib/php')
+Request URL: /fdc_messageboard/api/v1/register
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(64, 'require_once() ...', '/Applications/X...', 2)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Core/App.php(970): ErrorHandler::handleError(64, 'require_once() ...', '/Applications/X...', 2, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2024-05-10 07:01:17 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required './ServiceController.php' (include_path='/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib:.:/Applications/XAMPP/xamppfiles/lib/php') in [/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php, line 2]
+2024-05-10 07:01:17 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required './ServiceController.php' (include_path='/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib:.:/Applications/XAMPP/xamppfiles/lib/php')
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(64, 'require_once() ...', '/Applications/X...', 2)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Core/App.php(970): ErrorHandler::handleError(64, 'require_once() ...', '/Applications/X...', 2, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2024-05-10 07:01:26 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required './ServiceController.php' (include_path='/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib:.:/Applications/XAMPP/xamppfiles/lib/php') in [/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php, line 2]
+2024-05-10 07:01:26 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required './ServiceController.php' (include_path='/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib:.:/Applications/XAMPP/xamppfiles/lib/php')
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(64, 'require_once() ...', '/Applications/X...', 2)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Core/App.php(970): ErrorHandler::handleError(64, 'require_once() ...', '/Applications/X...', 2, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2024-05-10 07:06:35 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required './ServiceController.php' (include_path='/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib:.:/Applications/XAMPP/xamppfiles/lib/php') in [/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php, line 2]
+2024-05-10 07:06:35 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required './ServiceController.php' (include_path='/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib:.:/Applications/XAMPP/xamppfiles/lib/php')
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(64, 'require_once() ...', '/Applications/X...', 2)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Core/App.php(970): ErrorHandler::handleError(64, 'require_once() ...', '/Applications/X...', 2, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2024-05-10 07:06:36 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required './ServiceController.php' (include_path='/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib:.:/Applications/XAMPP/xamppfiles/lib/php') in [/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php, line 2]
+2024-05-10 07:06:36 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required './ServiceController.php' (include_path='/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib:.:/Applications/XAMPP/xamppfiles/lib/php')
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(64, 'require_once() ...', '/Applications/X...', 2)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Core/App.php(970): ErrorHandler::handleError(64, 'require_once() ...', '/Applications/X...', 2, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2024-05-10 07:06:37 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required './ServiceController.php' (include_path='/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib:.:/Applications/XAMPP/xamppfiles/lib/php') in [/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php, line 2]
+2024-05-10 07:06:37 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required './ServiceController.php' (include_path='/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib:.:/Applications/XAMPP/xamppfiles/lib/php')
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(64, 'require_once() ...', '/Applications/X...', 2)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Core/App.php(970): ErrorHandler::handleError(64, 'require_once() ...', '/Applications/X...', 2, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2024-05-10 07:07:10 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required './ServiceController.php' (include_path='/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib:.:/Applications/XAMPP/xamppfiles/lib/php') in [/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php, line 2]
+2024-05-10 07:07:10 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required './ServiceController.php' (include_path='/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib:.:/Applications/XAMPP/xamppfiles/lib/php')
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(64, 'require_once() ...', '/Applications/X...', 2)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Core/App.php(970): ErrorHandler::handleError(64, 'require_once() ...', '/Applications/X...', 2, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2024-05-10 07:07:11 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required './ServiceController.php' (include_path='/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib:.:/Applications/XAMPP/xamppfiles/lib/php') in [/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php, line 2]
+2024-05-10 07:07:11 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required './ServiceController.php' (include_path='/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib:.:/Applications/XAMPP/xamppfiles/lib/php')
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(64, 'require_once() ...', '/Applications/X...', 2)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Core/App.php(970): ErrorHandler::handleError(64, 'require_once() ...', '/Applications/X...', 2, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2024-05-10 07:07:47 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required './ServiceController.php' (include_path='/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib:.:/Applications/XAMPP/xamppfiles/lib/php') in [/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php, line 2]
+2024-05-10 07:07:47 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required './ServiceController.php' (include_path='/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib:.:/Applications/XAMPP/xamppfiles/lib/php')
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(64, 'require_once() ...', '/Applications/X...', 2)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Core/App.php(970): ErrorHandler::handleError(64, 'require_once() ...', '/Applications/X...', 2, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2024-05-10 07:07:48 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required './ServiceController.php' (include_path='/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib:.:/Applications/XAMPP/xamppfiles/lib/php') in [/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php, line 2]
+2024-05-10 07:07:48 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required './ServiceController.php' (include_path='/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib:.:/Applications/XAMPP/xamppfiles/lib/php')
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(64, 'require_once() ...', '/Applications/X...', 2)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Core/App.php(970): ErrorHandler::handleError(64, 'require_once() ...', '/Applications/X...', 2, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2024-05-10 07:07:59 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required './ServiceController.php' (include_path='/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib:.:/Applications/XAMPP/xamppfiles/lib/php') in [/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php, line 2]
+2024-05-10 07:07:59 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required './ServiceController.php' (include_path='/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib:.:/Applications/XAMPP/xamppfiles/lib/php')
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(64, 'require_once() ...', '/Applications/X...', 2)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Core/App.php(970): ErrorHandler::handleError(64, 'require_once() ...', '/Applications/X...', 2, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2024-05-10 07:08:00 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required './ServiceController.php' (include_path='/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib:.:/Applications/XAMPP/xamppfiles/lib/php') in [/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php, line 2]
+2024-05-10 07:08:00 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required './ServiceController.php' (include_path='/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib:.:/Applications/XAMPP/xamppfiles/lib/php')
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(64, 'require_once() ...', '/Applications/X...', 2)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Core/App.php(970): ErrorHandler::handleError(64, 'require_once() ...', '/Applications/X...', 2, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2024-05-10 07:08:02 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required './ServiceController.php' (include_path='/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib:.:/Applications/XAMPP/xamppfiles/lib/php') in [/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php, line 2]
+2024-05-10 07:08:02 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required './ServiceController.php' (include_path='/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib:.:/Applications/XAMPP/xamppfiles/lib/php')
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(64, 'require_once() ...', '/Applications/X...', 2)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Core/App.php(970): ErrorHandler::handleError(64, 'require_once() ...', '/Applications/X...', 2, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2024-05-10 07:08:03 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required './ServiceController.php' (include_path='/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib:.:/Applications/XAMPP/xamppfiles/lib/php') in [/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php, line 2]
+2024-05-10 07:08:03 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required './ServiceController.php' (include_path='/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib:.:/Applications/XAMPP/xamppfiles/lib/php')
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(64, 'require_once() ...', '/Applications/X...', 2)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Core/App.php(970): ErrorHandler::handleError(64, 'require_once() ...', '/Applications/X...', 2, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2024-05-10 07:08:26 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required './ServiceController.php' (include_path='/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib:.:/Applications/XAMPP/xamppfiles/lib/php') in [/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php, line 2]
+2024-05-10 07:08:26 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required './ServiceController.php' (include_path='/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib:.:/Applications/XAMPP/xamppfiles/lib/php')
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(64, 'require_once() ...', '/Applications/X...', 2)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Core/App.php(970): ErrorHandler::handleError(64, 'require_once() ...', '/Applications/X...', 2, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2024-05-10 07:08:47 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required './ServiceController.php' (include_path='/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib:.:/Applications/XAMPP/xamppfiles/lib/php') in [/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php, line 2]
+2024-05-10 07:08:47 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required './ServiceController.php' (include_path='/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib:.:/Applications/XAMPP/xamppfiles/lib/php')
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(64, 'require_once() ...', '/Applications/X...', 2)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Core/App.php(970): ErrorHandler::handleError(64, 'require_once() ...', '/Applications/X...', 2, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2024-05-10 07:09:45 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required './ServiceController.php' (include_path='/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib:.:/Applications/XAMPP/xamppfiles/lib/php') in [/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php, line 2]
+2024-05-10 07:09:45 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required './ServiceController.php' (include_path='/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib:.:/Applications/XAMPP/xamppfiles/lib/php')
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(64, 'require_once() ...', '/Applications/X...', 2)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Core/App.php(970): ErrorHandler::handleError(64, 'require_once() ...', '/Applications/X...', 2, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2024-05-10 07:11:06 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required './ServiceController.php' (include_path='/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib:.:/Applications/XAMPP/xamppfiles/lib/php') in [/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php, line 2]
+2024-05-10 07:11:06 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required './ServiceController.php' (include_path='/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib:.:/Applications/XAMPP/xamppfiles/lib/php')
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(64, 'require_once() ...', '/Applications/X...', 2)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Core/App.php(970): ErrorHandler::handleError(64, 'require_once() ...', '/Applications/X...', 2, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2024-05-10 07:12:30 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required './ServiceController.php' (include_path='/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib:.:/Applications/XAMPP/xamppfiles/lib/php') in [/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php, line 2]
+2024-05-10 07:12:30 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required './ServiceController.php' (include_path='/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib:.:/Applications/XAMPP/xamppfiles/lib/php')
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(64, 'require_once() ...', '/Applications/X...', 2)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Core/App.php(970): ErrorHandler::handleError(64, 'require_once() ...', '/Applications/X...', 2, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2024-05-10 07:12:31 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required './ServiceController.php' (include_path='/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib:.:/Applications/XAMPP/xamppfiles/lib/php') in [/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php, line 2]
+2024-05-10 07:12:31 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required './ServiceController.php' (include_path='/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib:.:/Applications/XAMPP/xamppfiles/lib/php')
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(64, 'require_once() ...', '/Applications/X...', 2)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Core/App.php(970): ErrorHandler::handleError(64, 'require_once() ...', '/Applications/X...', 2, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2024-05-10 07:12:32 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required './ServiceController.php' (include_path='/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib:.:/Applications/XAMPP/xamppfiles/lib/php') in [/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php, line 2]
+2024-05-10 07:12:32 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required './ServiceController.php' (include_path='/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib:.:/Applications/XAMPP/xamppfiles/lib/php')
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(64, 'require_once() ...', '/Applications/X...', 2)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Core/App.php(970): ErrorHandler::handleError(64, 'require_once() ...', '/Applications/X...', 2, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2024-05-10 07:13:51 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required './ServiceController.php' (include_path='/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib:.:/Applications/XAMPP/xamppfiles/lib/php') in [/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php, line 2]
+2024-05-10 07:13:51 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required './ServiceController.php' (include_path='/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib:.:/Applications/XAMPP/xamppfiles/lib/php')
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(64, 'require_once() ...', '/Applications/X...', 2)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Core/App.php(970): ErrorHandler::handleError(64, 'require_once() ...', '/Applications/X...', 2, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2024-05-10 07:13:52 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required './ServiceController.php' (include_path='/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib:.:/Applications/XAMPP/xamppfiles/lib/php') in [/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php, line 2]
+2024-05-10 07:13:52 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required './ServiceController.php' (include_path='/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib:.:/Applications/XAMPP/xamppfiles/lib/php')
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(64, 'require_once() ...', '/Applications/X...', 2)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Core/App.php(970): ErrorHandler::handleError(64, 'require_once() ...', '/Applications/X...', 2, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2024-05-10 07:16:39 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required './ServiceController.php' (include_path='/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib:.:/Applications/XAMPP/xamppfiles/lib/php') in [/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php, line 2]
+2024-05-10 07:16:39 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required './ServiceController.php' (include_path='/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib:.:/Applications/XAMPP/xamppfiles/lib/php')
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(64, 'require_once() ...', '/Applications/X...', 2)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Core/App.php(970): ErrorHandler::handleError(64, 'require_once() ...', '/Applications/X...', 2, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2024-05-10 07:16:39 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required './ServiceController.php' (include_path='/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib:.:/Applications/XAMPP/xamppfiles/lib/php') in [/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php, line 2]
+2024-05-10 07:16:39 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required './ServiceController.php' (include_path='/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib:.:/Applications/XAMPP/xamppfiles/lib/php')
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(64, 'require_once() ...', '/Applications/X...', 2)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Core/App.php(970): ErrorHandler::handleError(64, 'require_once() ...', '/Applications/X...', 2, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2024-05-10 07:17:14 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required './ServiceController.php' (include_path='/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib:.:/Applications/XAMPP/xamppfiles/lib/php') in [/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php, line 2]
+2024-05-10 07:17:14 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required './ServiceController.php' (include_path='/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib:.:/Applications/XAMPP/xamppfiles/lib/php')
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(64, 'require_once() ...', '/Applications/X...', 2)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Core/App.php(970): ErrorHandler::handleError(64, 'require_once() ...', '/Applications/X...', 2, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2024-05-10 07:17:47 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required './ServiceController.php' (include_path='/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib:.:/Applications/XAMPP/xamppfiles/lib/php') in [/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php, line 2]
+2024-05-10 07:17:47 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required './ServiceController.php' (include_path='/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib:.:/Applications/XAMPP/xamppfiles/lib/php')
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(64, 'require_once() ...', '/Applications/X...', 2)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Core/App.php(970): ErrorHandler::handleError(64, 'require_once() ...', '/Applications/X...', 2, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2024-05-10 07:17:48 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required './ServiceController.php' (include_path='/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib:.:/Applications/XAMPP/xamppfiles/lib/php') in [/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php, line 2]
+2024-05-10 07:17:48 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required './ServiceController.php' (include_path='/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib:.:/Applications/XAMPP/xamppfiles/lib/php')
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(64, 'require_once() ...', '/Applications/X...', 2)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Core/App.php(970): ErrorHandler::handleError(64, 'require_once() ...', '/Applications/X...', 2, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2024-05-10 07:20:30 Error: [Error] Call to undefined method UsersController::cakeError()
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Event/CakeEventManager.php(244): AppController->beforeFilter(Object(CakeEvent))
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(682): CakeEventManager->dispatch(Object(CakeEvent))
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-05-10 07:20:30 Error: Fatal Error (1): Uncaught Error: Call to undefined method CakeErrorController::cakeError() in /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/AppController.php:41
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Event/CakeEventManager.php(244): AppController->beforeFilter(Object(CakeEvent))
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(682): CakeEventManager->dispatch(Object(CakeEvent))
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ExceptionRenderer.php(158): Controller->startupProcess()
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ExceptionRenderer.php(95): ExceptionRenderer->_getController(Object(Error))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ErrorHandler.php(126): ExceptionRenderer->__construct(Object(Error))
+#5 [internal function]: ErrorHandler::handleException(Object(Error))
+#6 {main}
+  thrown in [/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/AppController.php, line 41]
+2024-05-10 07:20:30 Error: [FatalErrorException] Uncaught Error: Call to undefined method CakeErrorController::cakeError() in /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/AppController.php:41
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Event/CakeEventManager.php(244): AppController->beforeFilter(Object(CakeEvent))
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(682): CakeEventManager->dispatch(Object(CakeEvent))
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ExceptionRenderer.php(158): Controller->startupProcess()
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ExceptionRenderer.php(95): ExceptionRenderer->_getController(Object(Error))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ErrorHandler.php(126): ExceptionRenderer->__construct(Object(Error))
+#5 [internal function]: ErrorHandler::handleException(Object(Error))
+#6 {main}
+  thrown
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Uncaught Error:...', '/Applications/X...', 41)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Core/App.php(970): ErrorHandler::handleError(1, 'Uncaught Error:...', '/Applications/X...', 41, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2024-05-10 07:20:31 Error: [Error] Call to undefined method UsersController::cakeError()
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Event/CakeEventManager.php(244): AppController->beforeFilter(Object(CakeEvent))
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(682): CakeEventManager->dispatch(Object(CakeEvent))
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-05-10 07:20:31 Error: Fatal Error (1): Uncaught Error: Call to undefined method CakeErrorController::cakeError() in /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/AppController.php:41
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Event/CakeEventManager.php(244): AppController->beforeFilter(Object(CakeEvent))
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(682): CakeEventManager->dispatch(Object(CakeEvent))
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ExceptionRenderer.php(158): Controller->startupProcess()
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ExceptionRenderer.php(95): ExceptionRenderer->_getController(Object(Error))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ErrorHandler.php(126): ExceptionRenderer->__construct(Object(Error))
+#5 [internal function]: ErrorHandler::handleException(Object(Error))
+#6 {main}
+  thrown in [/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/AppController.php, line 41]
+2024-05-10 07:20:31 Error: [FatalErrorException] Uncaught Error: Call to undefined method CakeErrorController::cakeError() in /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/AppController.php:41
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Event/CakeEventManager.php(244): AppController->beforeFilter(Object(CakeEvent))
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(682): CakeEventManager->dispatch(Object(CakeEvent))
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ExceptionRenderer.php(158): Controller->startupProcess()
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ExceptionRenderer.php(95): ExceptionRenderer->_getController(Object(Error))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ErrorHandler.php(126): ExceptionRenderer->__construct(Object(Error))
+#5 [internal function]: ErrorHandler::handleException(Object(Error))
+#6 {main}
+  thrown
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Uncaught Error:...', '/Applications/X...', 41)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Core/App.php(970): ErrorHandler::handleError(1, 'Uncaught Error:...', '/Applications/X...', 41, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2024-05-10 07:20:32 Error: [Error] Call to undefined method UsersController::cakeError()
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Event/CakeEventManager.php(244): AppController->beforeFilter(Object(CakeEvent))
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(682): CakeEventManager->dispatch(Object(CakeEvent))
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-05-10 07:20:32 Error: Fatal Error (1): Uncaught Error: Call to undefined method CakeErrorController::cakeError() in /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/AppController.php:41
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Event/CakeEventManager.php(244): AppController->beforeFilter(Object(CakeEvent))
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(682): CakeEventManager->dispatch(Object(CakeEvent))
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ExceptionRenderer.php(158): Controller->startupProcess()
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ExceptionRenderer.php(95): ExceptionRenderer->_getController(Object(Error))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ErrorHandler.php(126): ExceptionRenderer->__construct(Object(Error))
+#5 [internal function]: ErrorHandler::handleException(Object(Error))
+#6 {main}
+  thrown in [/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/AppController.php, line 41]
+2024-05-10 07:20:32 Error: [FatalErrorException] Uncaught Error: Call to undefined method CakeErrorController::cakeError() in /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/AppController.php:41
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Event/CakeEventManager.php(244): AppController->beforeFilter(Object(CakeEvent))
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(682): CakeEventManager->dispatch(Object(CakeEvent))
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ExceptionRenderer.php(158): Controller->startupProcess()
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ExceptionRenderer.php(95): ExceptionRenderer->_getController(Object(Error))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ErrorHandler.php(126): ExceptionRenderer->__construct(Object(Error))
+#5 [internal function]: ErrorHandler::handleException(Object(Error))
+#6 {main}
+  thrown
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Uncaught Error:...', '/Applications/X...', 41)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Core/App.php(970): ErrorHandler::handleError(1, 'Uncaught Error:...', '/Applications/X...', 41, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2024-05-10 07:21:42 Error: [Error] Class 'CakeErrorController' not found
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Event/CakeEventManager.php(244): AppController->beforeFilter(Object(CakeEvent))
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(682): CakeEventManager->dispatch(Object(CakeEvent))
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-05-10 07:21:42 Error: Fatal Error (1): Uncaught Error: Call to a member function body() on null in /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php:968
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/AppController.php(42): Controller->render('error401')
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Event/CakeEventManager.php(244): AppController->beforeFilter(Object(CakeEvent))
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(682): CakeEventManager->dispatch(Object(CakeEvent))
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ExceptionRenderer.php(158): Controller->startupProcess()
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ExceptionRenderer.php(95): ExceptionRenderer->_getController(Object(Error))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ErrorHandler.php(126): ExceptionRenderer->__construct(Object(Error))
+#6 [internal func in [/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php, line 968]
+2024-05-10 07:21:42 Error: [FatalErrorException] Uncaught Error: Call to a member function body() on null in /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php:968
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/AppController.php(42): Controller->render('error401')
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Event/CakeEventManager.php(244): AppController->beforeFilter(Object(CakeEvent))
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(682): CakeEventManager->dispatch(Object(CakeEvent))
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ExceptionRenderer.php(158): Controller->startupProcess()
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ExceptionRenderer.php(95): ExceptionRenderer->_getController(Object(Error))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ErrorHandler.php(126): ExceptionRenderer->__construct(Object(Error))
+#6 [internal func
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Uncaught Error:...', '/Applications/X...', 968)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Core/App.php(970): ErrorHandler::handleError(1, 'Uncaught Error:...', '/Applications/X...', 968, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2024-05-10 07:21:43 Error: [Error] Class 'CakeErrorController' not found
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Event/CakeEventManager.php(244): AppController->beforeFilter(Object(CakeEvent))
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(682): CakeEventManager->dispatch(Object(CakeEvent))
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-05-10 07:21:43 Error: Fatal Error (1): Uncaught Error: Call to a member function body() on null in /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php:968
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/AppController.php(42): Controller->render('error401')
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Event/CakeEventManager.php(244): AppController->beforeFilter(Object(CakeEvent))
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(682): CakeEventManager->dispatch(Object(CakeEvent))
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ExceptionRenderer.php(158): Controller->startupProcess()
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ExceptionRenderer.php(95): ExceptionRenderer->_getController(Object(Error))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ErrorHandler.php(126): ExceptionRenderer->__construct(Object(Error))
+#6 [internal func in [/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php, line 968]
+2024-05-10 07:21:43 Error: [FatalErrorException] Uncaught Error: Call to a member function body() on null in /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php:968
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/AppController.php(42): Controller->render('error401')
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Event/CakeEventManager.php(244): AppController->beforeFilter(Object(CakeEvent))
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(682): CakeEventManager->dispatch(Object(CakeEvent))
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ExceptionRenderer.php(158): Controller->startupProcess()
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ExceptionRenderer.php(95): ExceptionRenderer->_getController(Object(Error))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ErrorHandler.php(126): ExceptionRenderer->__construct(Object(Error))
+#6 [internal func
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Uncaught Error:...', '/Applications/X...', 968)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Core/App.php(970): ErrorHandler::handleError(1, 'Uncaught Error:...', '/Applications/X...', 968, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2024-05-10 07:21:44 Error: [Error] Class 'CakeErrorController' not found
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Event/CakeEventManager.php(244): AppController->beforeFilter(Object(CakeEvent))
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(682): CakeEventManager->dispatch(Object(CakeEvent))
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-05-10 07:21:44 Error: Fatal Error (1): Uncaught Error: Call to a member function body() on null in /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php:968
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/AppController.php(42): Controller->render('error401')
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Event/CakeEventManager.php(244): AppController->beforeFilter(Object(CakeEvent))
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(682): CakeEventManager->dispatch(Object(CakeEvent))
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ExceptionRenderer.php(158): Controller->startupProcess()
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ExceptionRenderer.php(95): ExceptionRenderer->_getController(Object(Error))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ErrorHandler.php(126): ExceptionRenderer->__construct(Object(Error))
+#6 [internal func in [/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php, line 968]
+2024-05-10 07:21:44 Error: [FatalErrorException] Uncaught Error: Call to a member function body() on null in /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php:968
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/AppController.php(42): Controller->render('error401')
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Event/CakeEventManager.php(244): AppController->beforeFilter(Object(CakeEvent))
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(682): CakeEventManager->dispatch(Object(CakeEvent))
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ExceptionRenderer.php(158): Controller->startupProcess()
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ExceptionRenderer.php(95): ExceptionRenderer->_getController(Object(Error))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ErrorHandler.php(126): ExceptionRenderer->__construct(Object(Error))
+#6 [internal func
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Uncaught Error:...', '/Applications/X...', 968)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Core/App.php(970): ErrorHandler::handleError(1, 'Uncaught Error:...', '/Applications/X...', 968, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2024-05-10 07:21:45 Error: [Error] Class 'CakeErrorController' not found
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Event/CakeEventManager.php(244): AppController->beforeFilter(Object(CakeEvent))
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(682): CakeEventManager->dispatch(Object(CakeEvent))
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-05-10 07:21:45 Error: Fatal Error (1): Uncaught Error: Call to a member function body() on null in /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php:968
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/AppController.php(42): Controller->render('error401')
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Event/CakeEventManager.php(244): AppController->beforeFilter(Object(CakeEvent))
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(682): CakeEventManager->dispatch(Object(CakeEvent))
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ExceptionRenderer.php(158): Controller->startupProcess()
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ExceptionRenderer.php(95): ExceptionRenderer->_getController(Object(Error))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ErrorHandler.php(126): ExceptionRenderer->__construct(Object(Error))
+#6 [internal func in [/Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php, line 968]
+2024-05-10 07:21:45 Error: [FatalErrorException] Uncaught Error: Call to a member function body() on null in /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php:968
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/AppController.php(42): Controller->render('error401')
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Event/CakeEventManager.php(244): AppController->beforeFilter(Object(CakeEvent))
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(682): CakeEventManager->dispatch(Object(CakeEvent))
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ExceptionRenderer.php(158): Controller->startupProcess()
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ExceptionRenderer.php(95): ExceptionRenderer->_getController(Object(Error))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ErrorHandler.php(126): ExceptionRenderer->__construct(Object(Error))
+#6 [internal func
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Uncaught Error:...', '/Applications/X...', 968)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Core/App.php(970): ErrorHandler::handleError(1, 'Uncaught Error:...', '/Applications/X...', 968, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2024-05-10 07:25:39 Error: [MissingViewException] View file "Errors/error401.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Errors/error401.ctp',
+)
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/View/View.php(470): View->_getViewFileName('Errors/error401')
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(968): View->render('/Errors/error40...', NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/AppController.php(43): Controller->render('/Errors/error40...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Event/CakeEventManager.php(244): AppController->beforeFilter(Object(CakeEvent))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(682): CakeEventManager->dispatch(Object(CakeEvent))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#6 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#7 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2024-05-10 07:25:40 Error: [MissingViewException] View file "Errors/error401.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Errors/error401.ctp',
+)
+Request URL: /fdc_messageboard/api/v1/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/View/View.php(470): View->_getViewFileName('Errors/error401')
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(968): View->render('/Errors/error40...', NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/AppController.php(43): Controller->render('/Errors/error40...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Event/CakeEventManager.php(244): AppController->beforeFilter(Object(CakeEvent))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(682): CakeEventManager->dispatch(Object(CakeEvent))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#6 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#7 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2024-05-10 09:01:06 Error: [MissingControllerException] Controller class ApiController could not be found.
+Exception Attributes: array (
+  'class' => 'ApiController',
+  'plugin' => NULL,
+)
+Request URL: /fdc_messageboard/api/v1/update
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-05-10 09:01:27 Error: [MissingControllerException] Controller class ApiController could not be found.
+Exception Attributes: array (
+  'class' => 'ApiController',
+  'plugin' => NULL,
+)
+Request URL: /fdc_messageboard/api/v1/update
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-05-10 09:01:28 Error: [MissingControllerException] Controller class ApiController could not be found.
+Exception Attributes: array (
+  'class' => 'ApiController',
+  'plugin' => NULL,
+)
+Request URL: /fdc_messageboard/api/v1/update
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-05-10 09:01:37 Error: [MissingControllerException] Controller class ApiController could not be found.
+Exception Attributes: array (
+  'class' => 'ApiController',
+  'plugin' => NULL,
+)
+Request URL: /fdc_messageboard/api/v1/update
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-05-10 09:13:43 Error: [MissingViewException] View file "Users/json/getusers.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/json/getusers.ctp',
+)
+Request URL: /fdc_messageboard/api/v1/users
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/View/JsonView.php(107): View->_getViewFileName('Users/json/getu...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(968): JsonView->render(NULL, NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-05-10 09:34:51 Error: [Error] Call to a member function delete() on null
+Request URL: /fdc_messageboard/api/v1/delete
+Stack Trace:
+#0 [internal function]: UsersController->delete()
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
