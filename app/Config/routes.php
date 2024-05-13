@@ -35,11 +35,23 @@
 	// API URL
 	// for user
 	Router::connect('/api/v1/users', array('controller' => 'users', 'action' => 'getusers', 'ext' => 'json'));
+	Router::connect('/api/v1/user', array('controller' => 'users', 'action' => 'getUsersById', 'ext' => 'json'));
 	Router::connect('/api/v1/login', array('controller' => 'users', 'action' => 'login', 'ext' => 'json'));
 	Router::connect('/api/v1/register', array('controller' => 'users', 'action' => 'register', 'ext' => 'json'));
 	Router::connect('/api/v1/update', array('controller' => 'users', 'action' => 'update', 'ext' => 'json'));
 	Router::connect('/api/v1/delete', array('controller' => 'users', 'action' => 'delete', 'ext' => 'json'));
 
+	Router::connect('/api/v1/lists', array('controller' => 'lists', 'action' => 'getListByUser', 'ext' => 'json'));
+	Router::connect('/api/v1/list/filter', array('controller' => 'lists', 'action' => 'getFilteredList', 'ext' => 'json'));
+	Router::connect('/api/v1/list', array('controller' => 'lists', 'action' => 'addToList', 'ext' => 'json'));
+	Router::connect('/api/v1/list/delete', array('controller' => 'lists', 'action' => 'deleteList', 'ext' => 'json'));
+
+	Router::connect('/api/v1/messages', array('controller' => 'messages', 'action' => 'getMessageByUser', 'ext' => 'json'));
+	Router::connect('/api/v1/message', array('controller' => 'messages', 'action' => 'addMessage', 'ext' => 'json'));
+	Router::connect('/api/v1/message/delete', array('controller' => 'messages', 'action' => 'deleteMessage', 'ext' => 'json'));
+	Router::connect('/api/v1/message/deletes', array('controller' => 'messages', 'action' => 'deleteAll', 'ext' => 'json'));
+	Router::connect('/api/v1/message/delete/user', array('controller' => 'messages', 'action' => 'deleteAllByUser', 'ext' => 'json'));
+	Router::connect('/api/v1/message/get', array('controller' => 'messages', 'action' => 'getMessage', 'ext' => 'json'));
 /**
  * Load all plugin routes. See the CakePlugin documentation on
  * how to customize the loading of plugin routes.

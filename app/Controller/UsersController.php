@@ -6,7 +6,23 @@ class UsersController extends AppController
     public $components = array('RequestHandler');
 
     public function getusers(){
-        $this->ret(200,$this->User->find('all'));
+        if ($this->request->is('get')) {
+            $this->ret(200,$this->User->find('all'));
+        }else 
+            $this->ret(401,'Invalid request');
+    }
+
+    public function getUsersById(){
+        if ($this->request->is('post')) {
+            $this->loadModel('User');
+            $data = $this->User->find('all', array(
+                'conditions' => array(
+                    'User.id' => $this->Session->read('userid'),
+                ),
+            ));
+            $this->ret(201,$data);
+        }else
+            $this->ret(401,'Invalid request');
     }
 
     public function login(){
@@ -24,6 +40,7 @@ class UsersController extends AppController
                     $this->deleteToken($id);
                     $this->saveToken($id,md5($secureKey));
                     $this->addAccessLogs($id,'login',$json->username);
+                    $this->Session->write('userid', $id);
                     $this->ret(200,'Credential is valid');
                 }else
                     $this->ret(403,'Credential is not valid');
