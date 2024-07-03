@@ -34,7 +34,7 @@
 
 	// API URL
 	// for user
-	Router::connect('/api/v1/users', array('controller' => 'users', 'action' => 'getusers', 'ext' => 'json'));
+	Router::connect('/api/v1/users', array('controller' => 'users', 'action' => 'getUsers', 'ext' => 'json'));
 	Router::connect('/api/v1/user', array('controller' => 'users', 'action' => 'getUsersById', 'ext' => 'json'));
 	Router::connect('/api/v1/login', array('controller' => 'users', 'action' => 'login', 'ext' => 'json'));
 	Router::connect('/api/v1/register', array('controller' => 'users', 'action' => 'register', 'ext' => 'json'));

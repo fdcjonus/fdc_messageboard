@@ -6513,3 +6513,967 @@ Stack Trace:
 #4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ListsController), Object(CakeRequest))
 #5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #6 {main}
+2024-07-02 02:47:10 Error: [MissingModelException] {"List":[{"lists":{"id":"30","userid":"1","message_id":"72","created":"2024-05-13 14:42:16","msg_id":"2"}},{"lists":{"id":"29","userid":"1","message_id":"71","created":"2024-05-13 14:42:15","msg_id":"2"}}]}
+Request URL: /fdc_messageboard/api/v1/lists
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/ListsController.php(70): PaginatorComponent->paginate('{"List":[{"list...')
+#1 [internal function]: ListsController->getListByUser()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ListsController), Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ListsController), Object(CakeRequest))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-07-02 02:56:31 Error: [MissingModelException] {"List":[{"lists":{"id":"30","userid":"1","message_id":"72","created":"2024-05-13 14:42:16","msg_id":"2"}},{"lists":{"id":"29","userid":"1","message_id":"71","created":"2024-05-13 14:42:15","msg_id":"2"}}]}
+Request URL: /fdc_messageboard/api/v1/lists
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/ListsController.php(70): PaginatorComponent->paginate('{"List":[{"list...')
+#1 [internal function]: ListsController->getListByUser()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ListsController), Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ListsController), Object(CakeRequest))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-07-02 04:34:50 Error: [MissingModelException] {"List":[{"lists":{"id":"30","userid":"1","message_id":"72","created":"2024-05-13 14:42:16","msg_id":"2"}},{"lists":{"id":"29","userid":"1","message_id":"71","created":"2024-05-13 14:42:15","msg_id":"2"}}]}
+Request URL: /fdc_messageboard/api/v1/lists
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/ListsController.php(70): PaginatorComponent->paginate('{"List":[{"list...')
+#1 [internal function]: ListsController->getListByUser()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ListsController), Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ListsController), Object(CakeRequest))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-07-02 05:09:48 Error: [MissingControllerException] Controller class ApiController could not be found.
+Exception Attributes: array (
+  'class' => 'ApiController',
+  'plugin' => NULL,
+)
+Request URL: /fdc_messageboard/api/v1/user/1
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-07-02 05:17:33 Error: [MissingModelException] {"List":[{"lists":{"id":"30","userid":"1","message_id":"72","created":"2024-05-13 14:42:16","msg_id":"2"}},{"lists":{"id":"29","userid":"1","message_id":"71","created":"2024-05-13 14:42:15","msg_id":"2"}}]}
+Request URL: /fdc_messageboard/api/v1/lists
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/ListsController.php(70): PaginatorComponent->paginate('{"List":[{"list...')
+#1 [internal function]: ListsController->getListByUser()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ListsController), Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ListsController), Object(CakeRequest))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-07-02 05:20:44 Error: [MissingModelException] {"List":[{"lists":{"id":"30","userid":"1","message_id":"72","created":"2024-05-13 14:42:16","msg_id":"2"}},{"lists":{"id":"29","userid":"1","message_id":"71","created":"2024-05-13 14:42:15","msg_id":"2"}}]}
+Request URL: /fdc_messageboard/api/v1/lists
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/ListsController.php(70): PaginatorComponent->paginate('{"List":[{"list...')
+#1 [internal function]: ListsController->getListByUser()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ListsController), Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ListsController), Object(CakeRequest))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-07-02 05:24:31 Error: [MissingModelException] {"List":[{"lists":{"id":"30","userid":"1","message_id":"72","created":"2024-05-13 14:42:16","msg_id":"2"}},{"lists":{"id":"29","userid":"1","message_id":"71","created":"2024-05-13 14:42:15","msg_id":"2"}}]}
+Request URL: /fdc_messageboard/api/v1/lists
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/ListsController.php(70): PaginatorComponent->paginate('{"List":[{"list...')
+#1 [internal function]: ListsController->getListByUser()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ListsController), Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ListsController), Object(CakeRequest))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-07-02 05:24:33 Error: [MissingModelException] {"List":[{"lists":{"id":"30","userid":"1","message_id":"72","created":"2024-05-13 14:42:16","msg_id":"2"}},{"lists":{"id":"29","userid":"1","message_id":"71","created":"2024-05-13 14:42:15","msg_id":"2"}}]}
+Request URL: /fdc_messageboard/api/v1/lists
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/ListsController.php(70): PaginatorComponent->paginate('{"List":[{"list...')
+#1 [internal function]: ListsController->getListByUser()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ListsController), Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ListsController), Object(CakeRequest))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-07-02 05:25:08 Error: [MissingModelException] {"List":[{"lists":{"id":"30","userid":"1","message_id":"72","created":"2024-05-13 14:42:16","msg_id":"2"}},{"lists":{"id":"29","userid":"1","message_id":"71","created":"2024-05-13 14:42:15","msg_id":"2"}}]}
+Request URL: /fdc_messageboard/api/v1/lists
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/ListsController.php(70): PaginatorComponent->paginate('{"List":[{"list...')
+#1 [internal function]: ListsController->getListByUser()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ListsController), Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ListsController), Object(CakeRequest))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-07-02 05:28:45 Error: [MissingViewException] View file "Lists/get_list_by_user.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Lists/get_list_by_user.ctp',
+)
+Request URL: /fdc_messageboard/api/v1/lists
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/View/View.php(470): View->_getViewFileName('Lists/get_list_...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ListsController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-07-02 11:29:48 Error: [ParseError] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /fdc_messageboard/api/v1/register
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-07-02 11:30:15 Error: [ParseError] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /fdc_messageboard/api/v1/register
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-07-02 11:30:17 Error: [ParseError] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /fdc_messageboard/api/v1/register
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-07-02 17:36:13 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'rjmj.fdc@gmail.com' for key 'username'
+Request URL: /fdc_messageboard/api/v1/register
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('INSERT INTO `fd...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(1132): DboSource->execute('INSERT INTO `fd...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(1942): DboSource->create(Object(AppModel), Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php(63): Model->save(Array)
+#6 [internal function]: UsersController->register()
+#7 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2024-07-02 17:54:20 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'username' cannot be null
+Request URL: /fdc_messageboard/api/v1/register
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('INSERT INTO `fd...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(1132): DboSource->execute('INSERT INTO `fd...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(1942): DboSource->create(Object(AppModel), Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php(64): Model->save(Array)
+#6 [internal function]: UsersController->register()
+#7 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2024-07-02 17:56:16 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'username' cannot be null
+Request URL: /fdc_messageboard/api/v1/register
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('INSERT INTO `fd...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(1132): DboSource->execute('INSERT INTO `fd...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(1942): DboSource->create(Object(AppModel), Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php(64): Model->save(Array)
+#6 [internal function]: UsersController->register()
+#7 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2024-07-02 17:56:17 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'username' cannot be null
+Request URL: /fdc_messageboard/api/v1/register
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('INSERT INTO `fd...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(1132): DboSource->execute('INSERT INTO `fd...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(1942): DboSource->create(Object(AppModel), Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php(64): Model->save(Array)
+#6 [internal function]: UsersController->register()
+#7 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2024-07-03 09:12:34 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'rjmj.fdc@gmail.com' for key 'username'
+Request URL: /fdc_messageboard/api/v1/register
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('INSERT INTO `fd...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(1132): DboSource->execute('INSERT INTO `fd...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(1942): DboSource->create(Object(AppModel), Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php(64): Model->save(Array)
+#6 [internal function]: UsersController->register()
+#7 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2024-07-03 09:12:36 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'rjmj.fdc@gmail.com' for key 'username'
+Request URL: /fdc_messageboard/api/v1/register
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('INSERT INTO `fd...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(1132): DboSource->execute('INSERT INTO `fd...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(1942): DboSource->create(Object(AppModel), Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php(64): Model->save(Array)
+#6 [internal function]: UsersController->register()
+#7 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2024-07-03 09:18:59 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'rjmj.fdc@gmail.com' for key 'username'
+Request URL: /fdc_messageboard/api/v1/register
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('INSERT INTO `fd...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(1132): DboSource->execute('INSERT INTO `fd...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(1942): DboSource->create(Object(AppModel), Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php(67): Model->save(Array)
+#6 [internal function]: UsersController->register()
+#7 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2024-07-03 03:26:35 Error: [MissingViewException] View file "Users/json/register.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/json/register.ctp',
+)
+Request URL: /fdc_messageboard/api/v1/register
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/View/JsonView.php(107): View->_getViewFileName('Users/json/regi...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(968): JsonView->render(NULL, NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-07-03 03:26:36 Error: [MissingViewException] View file "Users/json/register.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/json/register.ctp',
+)
+Request URL: /fdc_messageboard/api/v1/register
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/View/JsonView.php(107): View->_getViewFileName('Users/json/regi...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(968): JsonView->render(NULL, NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-07-03 03:26:38 Error: [MissingViewException] View file "Users/json/register.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/json/register.ctp',
+)
+Request URL: /fdc_messageboard/api/v1/register
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/View/JsonView.php(107): View->_getViewFileName('Users/json/regi...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(968): JsonView->render(NULL, NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-07-03 03:26:43 Error: [MissingViewException] View file "Users/json/register.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/json/register.ctp',
+)
+Request URL: /fdc_messageboard/api/v1/register
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/View/JsonView.php(107): View->_getViewFileName('Users/json/regi...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(968): JsonView->render(NULL, NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-07-03 04:16:53 Error: [ParseError] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /fdc_messageboard/api/v1/register
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-07-03 04:16:54 Error: [ParseError] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /fdc_messageboard/api/v1/register
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-07-03 04:16:55 Error: [ParseError] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /fdc_messageboard/api/v1/register
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-07-03 04:17:35 Error: [ParseError] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /fdc_messageboard/api/v1/register
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-07-03 04:17:36 Error: [ParseError] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /fdc_messageboard/api/v1/register
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-07-03 04:17:37 Error: [ParseError] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /fdc_messageboard/api/v1/register
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-07-03 04:17:38 Error: [ParseError] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /fdc_messageboard/api/v1/register
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-07-03 04:17:39 Error: [ParseError] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /fdc_messageboard/api/v1/register
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-07-03 04:17:39 Error: [ParseError] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /fdc_messageboard/api/v1/register
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-07-03 04:17:40 Error: [ParseError] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /fdc_messageboard/api/v1/register
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-07-03 04:17:41 Error: [ParseError] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /fdc_messageboard/api/v1/register
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-07-03 04:17:41 Error: [ParseError] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /fdc_messageboard/api/v1/register
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-07-03 04:18:12 Error: [ParseError] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /fdc_messageboard/api/v1/register
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-07-03 04:18:13 Error: [ParseError] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /fdc_messageboard/api/v1/register
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-07-03 04:18:13 Error: [ParseError] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /fdc_messageboard/api/v1/register
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-07-03 04:52:41 Error: [ParseError] syntax error, unexpected 'List' (T_LIST), expecting identifier (T_STRING)
+Request URL: /fdc_messageboard/api/v1/lists
+Stack Trace:
+#0 [internal function]: App::load('List')
+#1 [internal function]: spl_autoload_call('List')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Utility/ClassRegistry.php(146): class_exists('List')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(746): ClassRegistry::init('List')
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(376): Controller->loadModel('List')
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(414): Controller->__isset('List')
+#6 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/ListsController.php(54): Controller->__get('List')
+#7 [internal function]: ListsController->getListByUser()
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ListsController), Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ListsController), Object(CakeRequest))
+#11 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2024-07-03 04:52:42 Error: [ParseError] syntax error, unexpected 'List' (T_LIST), expecting identifier (T_STRING)
+Request URL: /fdc_messageboard/api/v1/lists
+Stack Trace:
+#0 [internal function]: App::load('List')
+#1 [internal function]: spl_autoload_call('List')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Utility/ClassRegistry.php(146): class_exists('List')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(746): ClassRegistry::init('List')
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(376): Controller->loadModel('List')
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(414): Controller->__isset('List')
+#6 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/ListsController.php(54): Controller->__get('List')
+#7 [internal function]: ListsController->getListByUser()
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ListsController), Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ListsController), Object(CakeRequest))
+#11 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2024-07-03 04:53:09 Error: [ParseError] syntax error, unexpected 'List' (T_LIST), expecting identifier (T_STRING)
+Request URL: /fdc_messageboard/api/v1/lists
+Stack Trace:
+#0 [internal function]: App::load('List')
+#1 [internal function]: spl_autoload_call('List')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Utility/ClassRegistry.php(146): class_exists('List')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(746): ClassRegistry::init('List')
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(376): Controller->loadModel('List')
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(414): Controller->__isset('List')
+#6 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/ListsController.php(54): Controller->__get('List')
+#7 [internal function]: ListsController->getListByUser()
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ListsController), Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ListsController), Object(CakeRequest))
+#11 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2024-07-03 04:54:28 Error: [ParseError] syntax error, unexpected 'List' (T_LIST), expecting identifier (T_STRING)
+Request URL: /fdc_messageboard/api/v1/lists
+Stack Trace:
+#0 [internal function]: App::load('List')
+#1 [internal function]: spl_autoload_call('List')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Utility/ClassRegistry.php(146): class_exists('List')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(746): ClassRegistry::init('List')
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(376): Controller->loadModel('List')
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(414): Controller->__isset('List')
+#6 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/ListsController.php(54): Controller->__get('List')
+#7 [internal function]: ListsController->getListByUser()
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ListsController), Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ListsController), Object(CakeRequest))
+#11 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2024-07-03 04:54:29 Error: [ParseError] syntax error, unexpected 'List' (T_LIST), expecting identifier (T_STRING)
+Request URL: /fdc_messageboard/api/v1/lists
+Stack Trace:
+#0 [internal function]: App::load('List')
+#1 [internal function]: spl_autoload_call('List')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Utility/ClassRegistry.php(146): class_exists('List')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(746): ClassRegistry::init('List')
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(376): Controller->loadModel('List')
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(414): Controller->__isset('List')
+#6 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/ListsController.php(54): Controller->__get('List')
+#7 [internal function]: ListsController->getListByUser()
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ListsController), Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ListsController), Object(CakeRequest))
+#11 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2024-07-03 04:54:30 Error: [ParseError] syntax error, unexpected 'List' (T_LIST), expecting identifier (T_STRING)
+Request URL: /fdc_messageboard/api/v1/lists
+Stack Trace:
+#0 [internal function]: App::load('List')
+#1 [internal function]: spl_autoload_call('List')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Utility/ClassRegistry.php(146): class_exists('List')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(746): ClassRegistry::init('List')
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(376): Controller->loadModel('List')
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(414): Controller->__isset('List')
+#6 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/ListsController.php(54): Controller->__get('List')
+#7 [internal function]: ListsController->getListByUser()
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ListsController), Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ListsController), Object(CakeRequest))
+#11 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2024-07-03 04:56:13 Error: [ParseError] syntax error, unexpected 'List' (T_LIST), expecting identifier (T_STRING)
+Request URL: /fdc_messageboard/api/v1/lists
+Stack Trace:
+#0 [internal function]: App::load('List')
+#1 [internal function]: spl_autoload_call('List')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Utility/ClassRegistry.php(146): class_exists('List')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(746): ClassRegistry::init('List')
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/ListsController.php(53): Controller->loadModel('List')
+#5 [internal function]: ListsController->getListByUser()
+#6 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ListsController), Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ListsController), Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2024-07-03 04:56:14 Error: [ParseError] syntax error, unexpected 'List' (T_LIST), expecting identifier (T_STRING)
+Request URL: /fdc_messageboard/api/v1/lists
+Stack Trace:
+#0 [internal function]: App::load('List')
+#1 [internal function]: spl_autoload_call('List')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Utility/ClassRegistry.php(146): class_exists('List')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(746): ClassRegistry::init('List')
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/ListsController.php(53): Controller->loadModel('List')
+#5 [internal function]: ListsController->getListByUser()
+#6 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ListsController), Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ListsController), Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2024-07-03 04:56:15 Error: [ParseError] syntax error, unexpected 'List' (T_LIST), expecting identifier (T_STRING)
+Request URL: /fdc_messageboard/api/v1/lists
+Stack Trace:
+#0 [internal function]: App::load('List')
+#1 [internal function]: spl_autoload_call('List')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Utility/ClassRegistry.php(146): class_exists('List')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(746): ClassRegistry::init('List')
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/ListsController.php(53): Controller->loadModel('List')
+#5 [internal function]: ListsController->getListByUser()
+#6 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ListsController), Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ListsController), Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2024-07-03 04:56:15 Error: [ParseError] syntax error, unexpected 'List' (T_LIST), expecting identifier (T_STRING)
+Request URL: /fdc_messageboard/api/v1/lists
+Stack Trace:
+#0 [internal function]: App::load('List')
+#1 [internal function]: spl_autoload_call('List')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Utility/ClassRegistry.php(146): class_exists('List')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(746): ClassRegistry::init('List')
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/ListsController.php(53): Controller->loadModel('List')
+#5 [internal function]: ListsController->getListByUser()
+#6 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ListsController), Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ListsController), Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2024-07-03 04:57:41 Error: [ParseError] syntax error, unexpected 'List' (T_LIST), expecting identifier (T_STRING)
+Request URL: /fdc_messageboard/api/v1/lists
+Stack Trace:
+#0 [internal function]: App::load('List')
+#1 [internal function]: spl_autoload_call('List')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Utility/ClassRegistry.php(146): class_exists('List')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(746): ClassRegistry::init('List')
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(376): Controller->loadModel('List')
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(414): Controller->__isset('List')
+#6 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/ListsController.php(53): Controller->__get('List')
+#7 [internal function]: ListsController->getListByUser()
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ListsController), Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ListsController), Object(CakeRequest))
+#11 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2024-07-03 04:57:42 Error: [ParseError] syntax error, unexpected 'List' (T_LIST), expecting identifier (T_STRING)
+Request URL: /fdc_messageboard/api/v1/lists
+Stack Trace:
+#0 [internal function]: App::load('List')
+#1 [internal function]: spl_autoload_call('List')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Utility/ClassRegistry.php(146): class_exists('List')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(746): ClassRegistry::init('List')
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(376): Controller->loadModel('List')
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(414): Controller->__isset('List')
+#6 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/ListsController.php(53): Controller->__get('List')
+#7 [internal function]: ListsController->getListByUser()
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ListsController), Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ListsController), Object(CakeRequest))
+#11 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2024-07-03 04:59:25 Error: [ParseError] syntax error, unexpected 'List' (T_LIST), expecting identifier (T_STRING)
+Request URL: /fdc_messageboard/api/v1/lists
+Stack Trace:
+#0 [internal function]: App::load('List')
+#1 [internal function]: spl_autoload_call('List')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Utility/ClassRegistry.php(146): class_exists('List')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(746): ClassRegistry::init('List')
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(376): Controller->loadModel('List')
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(414): Controller->__isset('List')
+#6 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/ListsController.php(53): Controller->__get('List')
+#7 [internal function]: ListsController->getListByUser()
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ListsController), Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ListsController), Object(CakeRequest))
+#11 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2024-07-03 05:00:12 Error: [ParseError] syntax error, unexpected 'List' (T_LIST), expecting identifier (T_STRING)
+Request URL: /fdc_messageboard/api/v1/lists
+Stack Trace:
+#0 [internal function]: App::load('List')
+#1 [internal function]: spl_autoload_call('List')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Utility/ClassRegistry.php(146): class_exists('List')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(746): ClassRegistry::init('List')
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/ListsController.php(52): Controller->loadModel('List')
+#5 [internal function]: ListsController->getListByUser()
+#6 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ListsController), Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ListsController), Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2024-07-03 05:00:14 Error: [ParseError] syntax error, unexpected 'List' (T_LIST), expecting identifier (T_STRING)
+Request URL: /fdc_messageboard/api/v1/lists
+Stack Trace:
+#0 [internal function]: App::load('List')
+#1 [internal function]: spl_autoload_call('List')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Utility/ClassRegistry.php(146): class_exists('List')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(746): ClassRegistry::init('List')
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/ListsController.php(52): Controller->loadModel('List')
+#5 [internal function]: ListsController->getListByUser()
+#6 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ListsController), Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ListsController), Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2024-07-03 05:00:15 Error: [ParseError] syntax error, unexpected 'List' (T_LIST), expecting identifier (T_STRING)
+Request URL: /fdc_messageboard/api/v1/lists
+Stack Trace:
+#0 [internal function]: App::load('List')
+#1 [internal function]: spl_autoload_call('List')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Utility/ClassRegistry.php(146): class_exists('List')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(746): ClassRegistry::init('List')
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/ListsController.php(52): Controller->loadModel('List')
+#5 [internal function]: ListsController->getListByUser()
+#6 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ListsController), Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ListsController), Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2024-07-03 05:00:16 Error: [ParseError] syntax error, unexpected 'List' (T_LIST), expecting identifier (T_STRING)
+Request URL: /fdc_messageboard/api/v1/lists
+Stack Trace:
+#0 [internal function]: App::load('List')
+#1 [internal function]: spl_autoload_call('List')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Utility/ClassRegistry.php(146): class_exists('List')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(746): ClassRegistry::init('List')
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/ListsController.php(52): Controller->loadModel('List')
+#5 [internal function]: ListsController->getListByUser()
+#6 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ListsController), Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ListsController), Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2024-07-03 05:01:12 Error: [ParseError] syntax error, unexpected 'List' (T_LIST), expecting identifier (T_STRING)
+Request URL: /fdc_messageboard/api/v1/lists
+Stack Trace:
+#0 [internal function]: App::load('List')
+#1 [internal function]: spl_autoload_call('List')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Utility/ClassRegistry.php(146): class_exists('List')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(746): ClassRegistry::init('List')
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(376): Controller->loadModel('List')
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(414): Controller->__isset('List')
+#6 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/ListsController.php(53): Controller->__get('List')
+#7 [internal function]: ListsController->getListByUser()
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ListsController), Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ListsController), Object(CakeRequest))
+#11 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2024-07-03 05:01:13 Error: [ParseError] syntax error, unexpected 'List' (T_LIST), expecting identifier (T_STRING)
+Request URL: /fdc_messageboard/api/v1/lists
+Stack Trace:
+#0 [internal function]: App::load('List')
+#1 [internal function]: spl_autoload_call('List')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Utility/ClassRegistry.php(146): class_exists('List')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(746): ClassRegistry::init('List')
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(376): Controller->loadModel('List')
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(414): Controller->__isset('List')
+#6 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/ListsController.php(53): Controller->__get('List')
+#7 [internal function]: ListsController->getListByUser()
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ListsController), Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ListsController), Object(CakeRequest))
+#11 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2024-07-03 05:02:14 Error: [ParseError] syntax error, unexpected 'List' (T_LIST), expecting identifier (T_STRING)
+Request URL: /fdc_messageboard/api/v1/lists
+Stack Trace:
+#0 [internal function]: App::load('List')
+#1 [internal function]: spl_autoload_call('List')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Utility/ClassRegistry.php(146): class_exists('List')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(746): ClassRegistry::init('List')
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(376): Controller->loadModel('List')
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(414): Controller->__isset('List')
+#6 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/ListsController.php(53): Controller->__get('List')
+#7 [internal function]: ListsController->getListByUser()
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ListsController), Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ListsController), Object(CakeRequest))
+#11 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2024-07-03 05:02:15 Error: [ParseError] syntax error, unexpected 'List' (T_LIST), expecting identifier (T_STRING)
+Request URL: /fdc_messageboard/api/v1/lists
+Stack Trace:
+#0 [internal function]: App::load('List')
+#1 [internal function]: spl_autoload_call('List')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Utility/ClassRegistry.php(146): class_exists('List')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(746): ClassRegistry::init('List')
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(376): Controller->loadModel('List')
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(414): Controller->__isset('List')
+#6 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/ListsController.php(53): Controller->__get('List')
+#7 [internal function]: ListsController->getListByUser()
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ListsController), Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ListsController), Object(CakeRequest))
+#11 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2024-07-03 05:02:17 Error: [ParseError] syntax error, unexpected 'List' (T_LIST), expecting identifier (T_STRING)
+Request URL: /fdc_messageboard/api/v1/lists
+Stack Trace:
+#0 [internal function]: App::load('List')
+#1 [internal function]: spl_autoload_call('List')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Utility/ClassRegistry.php(146): class_exists('List')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(746): ClassRegistry::init('List')
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(376): Controller->loadModel('List')
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(414): Controller->__isset('List')
+#6 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/ListsController.php(53): Controller->__get('List')
+#7 [internal function]: ListsController->getListByUser()
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ListsController), Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ListsController), Object(CakeRequest))
+#11 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2024-07-03 05:02:19 Error: [ParseError] syntax error, unexpected 'List' (T_LIST), expecting identifier (T_STRING)
+Request URL: /fdc_messageboard/api/v1/lists
+Stack Trace:
+#0 [internal function]: App::load('List')
+#1 [internal function]: spl_autoload_call('List')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Utility/ClassRegistry.php(146): class_exists('List')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(746): ClassRegistry::init('List')
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(376): Controller->loadModel('List')
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(414): Controller->__isset('List')
+#6 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/ListsController.php(53): Controller->__get('List')
+#7 [internal function]: ListsController->getListByUser()
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ListsController), Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ListsController), Object(CakeRequest))
+#11 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2024-07-03 05:19:52 Error: [ParseError] syntax error, unexpected 'List' (T_LIST), expecting identifier (T_STRING)
+Request URL: /fdc_messageboard/api/v1/lists
+Stack Trace:
+#0 [internal function]: App::load('List')
+#1 [internal function]: spl_autoload_call('List')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Utility/ClassRegistry.php(146): class_exists('List')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(746): ClassRegistry::init('List')
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(376): Controller->loadModel('List')
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(414): Controller->__isset('List')
+#6 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/ListsController.php(53): Controller->__get('List')
+#7 [internal function]: ListsController->getListByUser()
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ListsController), Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ListsController), Object(CakeRequest))
+#11 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2024-07-03 05:19:54 Error: [ParseError] syntax error, unexpected 'List' (T_LIST), expecting identifier (T_STRING)
+Request URL: /fdc_messageboard/api/v1/lists
+Stack Trace:
+#0 [internal function]: App::load('List')
+#1 [internal function]: spl_autoload_call('List')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Utility/ClassRegistry.php(146): class_exists('List')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(746): ClassRegistry::init('List')
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(376): Controller->loadModel('List')
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(414): Controller->__isset('List')
+#6 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/ListsController.php(53): Controller->__get('List')
+#7 [internal function]: ListsController->getListByUser()
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ListsController), Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ListsController), Object(CakeRequest))
+#11 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2024-07-03 05:21:07 Error: [ParseError] syntax error, unexpected 'List' (T_LIST), expecting identifier (T_STRING)
+Request URL: /fdc_messageboard/api/v1/lists
+Stack Trace:
+#0 [internal function]: App::load('List')
+#1 [internal function]: spl_autoload_call('List')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Utility/ClassRegistry.php(146): class_exists('List')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(746): ClassRegistry::init('List')
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(376): Controller->loadModel('List')
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(414): Controller->__isset('List')
+#6 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/ListsController.php(53): Controller->__get('List')
+#7 [internal function]: ListsController->getListByUser()
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ListsController), Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ListsController), Object(CakeRequest))
+#11 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2024-07-03 05:21:09 Error: [ParseError] syntax error, unexpected 'List' (T_LIST), expecting identifier (T_STRING)
+Request URL: /fdc_messageboard/api/v1/lists
+Stack Trace:
+#0 [internal function]: App::load('List')
+#1 [internal function]: spl_autoload_call('List')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Utility/ClassRegistry.php(146): class_exists('List')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(746): ClassRegistry::init('List')
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(376): Controller->loadModel('List')
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(414): Controller->__isset('List')
+#6 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/ListsController.php(53): Controller->__get('List')
+#7 [internal function]: ListsController->getListByUser()
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ListsController), Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ListsController), Object(CakeRequest))
+#11 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2024-07-03 05:22:41 Error: [ParseError] syntax error, unexpected 'List' (T_LIST), expecting identifier (T_STRING)
+Request URL: /fdc_messageboard/api/v1/list/filter
+Stack Trace:
+#0 [internal function]: App::load('List')
+#1 [internal function]: spl_autoload_call('List')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Utility/ClassRegistry.php(146): class_exists('List')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(746): ClassRegistry::init('List')
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/ListsController.php(113): Controller->loadModel('List')
+#5 [internal function]: ListsController->getFilteredList()
+#6 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ListsController), Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ListsController), Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2024-07-03 05:22:42 Error: [ParseError] syntax error, unexpected 'List' (T_LIST), expecting identifier (T_STRING)
+Request URL: /fdc_messageboard/api/v1/list/filter
+Stack Trace:
+#0 [internal function]: App::load('List')
+#1 [internal function]: spl_autoload_call('List')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Utility/ClassRegistry.php(146): class_exists('List')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(746): ClassRegistry::init('List')
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/ListsController.php(113): Controller->loadModel('List')
+#5 [internal function]: ListsController->getFilteredList()
+#6 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ListsController), Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ListsController), Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2024-07-03 05:22:43 Error: [ParseError] syntax error, unexpected 'List' (T_LIST), expecting identifier (T_STRING)
+Request URL: /fdc_messageboard/api/v1/list/filter
+Stack Trace:
+#0 [internal function]: App::load('List')
+#1 [internal function]: spl_autoload_call('List')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Utility/ClassRegistry.php(146): class_exists('List')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(746): ClassRegistry::init('List')
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/ListsController.php(113): Controller->loadModel('List')
+#5 [internal function]: ListsController->getFilteredList()
+#6 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ListsController), Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ListsController), Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2024-07-03 05:48:04 Error: [Error] Call to undefined method ListsController::getDataSource()
+Request URL: /fdc_messageboard/api/v1/lists
+Stack Trace:
+#0 [internal function]: ListsController->getListByUser()
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ListsController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ListsController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2024-07-03 07:30:18 Error: [ParseError] syntax error, unexpected ')'
+Request URL: /fdc_messageboard/api/v1/lists
+Stack Trace:
+#0 [internal function]: App::load('ListsController')
+#1 [internal function]: spl_autoload_call('ListsController')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(266): class_exists('ListsController')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-07-03 07:43:43 Error: [ParseError] syntax error, unexpected ')'
+Request URL: /fdc_messageboard/api/v1/lists
+Stack Trace:
+#0 [internal function]: App::load('ListsController')
+#1 [internal function]: spl_autoload_call('ListsController')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(266): class_exists('ListsController')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-07-03 07:59:46 Error: [ParseError] syntax error, unexpected ','
+Request URL: /fdc_messageboard/api/v1/lists
+Stack Trace:
+#0 [internal function]: App::load('ListsController')
+#1 [internal function]: spl_autoload_call('ListsController')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(266): class_exists('ListsController')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-07-03 09:01:42 Error: [MissingActionException] Action ListsController::addToList() could not be found.
+Exception Attributes: array (
+  'controller' => 'ListsController',
+  'action' => 'addToList',
+)
+Request URL: /fdc_messageboard/api/v1/list
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ListsController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2024-07-03 09:01:43 Error: [MissingActionException] Action ListsController::addToList() could not be found.
+Exception Attributes: array (
+  'controller' => 'ListsController',
+  'action' => 'addToList',
+)
+Request URL: /fdc_messageboard/api/v1/list
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ListsController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2024-07-03 09:01:45 Error: [MissingActionException] Action ListsController::addToList() could not be found.
+Exception Attributes: array (
+  'controller' => 'ListsController',
+  'action' => 'addToList',
+)
+Request URL: /fdc_messageboard/api/v1/list
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ListsController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}

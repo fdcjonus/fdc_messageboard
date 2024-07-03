@@ -5,7 +5,7 @@ class UsersController extends AppController
 {
     public $components = array('RequestHandler');
 
-    public function getusers(){
+    public function getUsers(){
         if ($this->request->is('get')) {
             $this->ret(200,$this->User->find('all'));
         }else 
@@ -35,7 +35,8 @@ class UsersController extends AppController
                     $id = $user['User']['id'];
                     $secureKey = bin2hex(random_bytes(32));
                     $this->deleteCookie();
-                    $this->setcookie($json->username,$secureKey);
+                    $this->setcookie('token',$secureKey);
+                    $this->setcookie('user',$id);
                     $this->updateLoginTime($id);
                     $this->deleteToken($id);
                     $this->saveToken($id,md5($secureKey));
@@ -51,37 +52,43 @@ class UsersController extends AppController
     }
 
     public function register(){
+        $this->loadModel('User');
+
         if ($this->request->is('post')){
-            $json = json_decode($this->request->input());
-            $this->loadModel('User');
-            $user = $this->User->findByUsername($json->username);
-            if (!$user) {
-                if ($json->confirm === $json->password) {
-                    if ($this->User->save(array(
-                        'User' => array(
-                            'name' => strtoupper($json->name),
-                            'username' => $json->username,
-                            'password' => md5($json->password),
-                            'created' =>  $this->getDate(),
-                            'last_login_time' => $this->getDate()
-                        )
-                    ))) {
-                        $fetch = $this->User->findByUsername($json->username);
-                        $id = $fetch['User']['id'];
-                        $secureKey = bin2hex(random_bytes(32));
-                        $this->deleteCookie();
-                        $this->setcookie($json->username,$secureKey);
-                        $this->deleteToken($id);
-                        $this->saveToken($id,md5($secureKey));
-                        $this->addAccessLogs($id,'register',$json->username);
-                        
-                        $this->ret(201,'Successfully registered');
+            $this->User->set($this->request->data);
+            if($this->User->validates()){
+                $json = json_decode($this->request->input());
+                $user = $this->User->findByUsername($json->username);
+                if (!$user) {
+                    if ($json->confirm === $json->password) {
+                        if ($this->User->save(array(
+                            'User' => array(
+                                'name' => strtoupper($json->name),
+                                'username' => $json->username,
+                                'password' => md5($json->password),
+                                'created' =>  $this->getDate(),
+                                'last_login_time' => $this->getDate()
+                            )
+                        ))) {
+                            $fetch = $this->User->findByUsername($json->username);
+                            $id = $fetch['User']['id'];
+                            $secureKey = bin2hex(random_bytes(32));
+                            $this->deleteCookie();
+                            $this->setcookie('token',$secureKey);
+                            $this->setcookie('user',$id);
+                            $this->deleteToken($id);
+                            $this->saveToken($id,md5($secureKey));
+                            $this->addAccessLogs($id,'register',$json->username);
+                            
+                            $this->ret(201,'Successfully registered');
+                        }else
+                            $this->ret(409,'Failed to register');
                     }else
-                        $this->ret(409,'failed to register');
+                        $this->ret(409,'Confirm password is not equal to your password');
                 }else
-                    $this->ret(409,'Confirm password is not equal to your password');
+                    $this->ret(401,'Failed to register');
             }else
-                $this->ret(401,'User already exist');
+                $this->ret(501,'Failed to register');
         }
     }
 
@@ -132,13 +139,13 @@ class UsersController extends AppController
     }
 
 
-    private function readCookie() {
+    private function readCookie($name) {
         // Load the CookieComponent
         $this->Cookie = $this->Components->load('Cookie');
         // Check if the cookie exists
-        if ($this->Cookie->check('UserToken')) {
+        if ($this->Cookie->check($name)) {
             // Read the cookie data
-            $cookieData = $this->Cookie->read('UserToken');
+            $cookieData = $this->Cookie->read($name);
             // Access the cookie data
             return $cookieData['value'];
         } else 
@@ -149,7 +156,8 @@ class UsersController extends AppController
         // Load the CookieComponent
         $this->Cookie = $this->Components->load('Cookie');
         // Delete the cookie
-        $this->Cookie->delete('UserToken');
+        $this->Cookie->delete('token');
+        $this->Cookie->delete('user');
     }
 
     private function setCookie($username,$value){
@@ -163,7 +171,7 @@ class UsersController extends AppController
             'path' => '/',
         );
 
-        $this->Cookie->write('UserToken', $cookieData);
+        $this->Cookie->write($username, $cookieData);
     }
 
     private function ret($code,$message){

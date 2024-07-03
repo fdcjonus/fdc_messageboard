@@ -4,6 +4,7 @@ App::uses('AppController', 'Controller');
 class ListsController extends AppController
 {
     public $components = array('RequestHandler','Paginator');
+    public $uses = array('List', 'Message');
 
     public function initialize()
     {
@@ -14,18 +15,26 @@ class ListsController extends AppController
         if ($this->request->is('post')) {
             try {
                 // $json = json_decode($this->request->input());
-            
-                // $this->Paginator->settings = array(
-                //     'page' => $json->page,
-                //     'limit' => $json->limit,
-                //     'order' => array('message_id' => 'desc'),
-                //     // 'group' => 'message_id'
+                // $id = $this->readCookie('user');
+                // $conditions = array(
+                //     'OR' => array(
+                //         array(
+                //             'userid' => $id,
+                //         ),
+                //         array(
+                //             'msg_id' => $id
+                //         )
+                //     )
                 // );
 
+                // $this->Paginator->settings = array(
+                //     'conditions' => $conditions,
+                //     'page' => $json->page,
+                //     'limit' => $json->limit,
+                //     'order' => array('message_id' => 'desc')
+                // );
                 // // Paginate the User model
-                // $data = $this->Paginator->paginate('List', array(
-                //     'userid' => $json->userid
-                // ));
+                // $data = $this->Paginator->paginate();
 
                 // // Get pagination metadata
                 // $paginationMeta = $this->request->params['paging']['List'];
@@ -48,49 +57,34 @@ class ListsController extends AppController
                 // $this->response->body(json_encode($responseData)); // Set response body
                 // return $this->response; // Return the response
 
-                $json = json_decode($this->request->input());
-
-                $results = $this->List->query("
-                    SELECT * FROM `lists`
-                    WHERE (userid = $json->userid AND msg_id = $json->message_id)
-                    OR (userid = $json->message_id AND msg_id = $json->userid)
-                    ORDER BY created DESC
-                ");
-
-                $this->Paginator->settings = array(
-                    'page' => $json->page,
-                    'limit' => $json->limit,
-                );
-
-                $tmp = array(
-                    'List' => $results
-                );
-
-                // Paginate the results directly
-                $data = $this->Paginator->paginate(json_encode($tmp));
-
-                // Construct response data including paginated data and pagination metadata
-                $responseData = array(
-                    'success' => true,
-                    'data' => $data,
-                    'paging' => array(
-                        'page' => $paginationMeta['page'], // Current page number
-                        'totalPages' => $paginationMeta['pageCount'], // Total number of pages
-                        'totalCount' => $paginationMeta['count'] // Total number of records
+                $this->paginate = array(
+                    'fields' => array('List.*', 'Message.*'), // Select fields from both tables
+                    'joins' => array(
+                        array(
+                            'table' => 'lists',
+                            'alias' => 'List',
+                            'type' => 'LEFT',
+                            'conditions' => array(
+                                'OR' => array(
+                                    array(
+                                        'List.userid' => 1,
+                                    ),
+                                    array(
+                                        'List.msg_id' => 1
+                                    )
+                                )
+                            )
+                        )
                     ),
-                    'message' => 'Paginated data retrieved successfully'
+                    'limit' => 10,
+                    'order' => array('List.id' => 'desc') // Example ordering
                 );
-
-                // Convert response data to JSON and send response
-                $this->autoRender = false; // Disable view rendering
-                $this->response->type('json'); // Set response content type
-                $this->response->body(json_encode($responseData)); // Set response body
-                return $this->response;
-
-                // $this->ret(201,$tmp);
-
-            } catch (NotFoundException $th) {
-                $this->ret(401,'Invalid request');
+        
+                // Paginate the User model with custom query join
+                $users = $this->paginate('List');
+                $this->ret(201,$users);
+            } catch (Exception $th) {
+                $this->ret(501,$th->getMessage());
             }
         }else
             $this->ret(401,'Invalid request');
@@ -110,7 +104,7 @@ class ListsController extends AppController
             //     ));
             // $this->ret(201,$data);
 
-            $this->loadModel('List');
+            // $this->loadModel('List');
             $results = $this->List->query("SELECT DISTINCT * FROM `lists` 
             WHERE userid = $json->userid AND msg_id = $json->message_id 
             OR userid = $json->message_id AND msg_id = $json->userid
@@ -137,11 +131,11 @@ class ListsController extends AppController
     //     }
     // }
 
-    public function deleteList(){
+    public function deleteList(){ 
         if ($this->request->is('post')) {
             try {
                 $json = json_decode($this->request->input());
-                $this->loadModel('List');
+                // $this->loadModel('List');
                 $id = $this->List->findById($json->id);
                 if (!$id) {
                     $this->ret(401,'Something went wrong');
@@ -155,13 +149,13 @@ class ListsController extends AppController
         }
     }
 
-    private function readCookie() {
+    private function readCookie($name) {
         // Load the CookieComponent
         $this->Cookie = $this->Components->load('Cookie');
         // Check if the cookie exists
-        if ($this->Cookie->check('UserToken')) {
+        if ($this->Cookie->check($name)) {
             // Read the cookie data
-            $cookieData = $this->Cookie->read('UserToken');
+            $cookieData = $this->Cookie->read($name);
             // Access the cookie data
             return $cookieData['value'];
         } else 
