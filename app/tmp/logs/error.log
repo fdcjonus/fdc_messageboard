@@ -7955,3 +7955,63 @@ Stack Trace:
 #9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest))
 #10 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #11 {main}
+2024-07-05 19:09:59 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'message_id' cannot be null
+Request URL: /fdc_messageboard/api/v1/message
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('UPDATE `fdc_jon...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/Database/Mysql.php(425): DboSource->execute('UPDATE `fdc_jon...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(1926): Mysql->update(Object(AppModel), '`userid` = 30, ...', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/MessagesController.php(176): Model->save(Array)
+#6 [internal function]: MessagesController->addMessage()
+#7 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest))
+#10 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2024-07-05 19:14:41 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'message_id' cannot be null
+Request URL: /fdc_messageboard/api/v1/message
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('UPDATE `fdc_jon...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/Database/Mysql.php(425): DboSource->execute('UPDATE `fdc_jon...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(1926): Mysql->update(Object(AppModel), '`userid` = 30, ...', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/MessagesController.php(176): Model->save(Array)
+#6 [internal function]: MessagesController->addMessage()
+#7 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest))
+#10 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2024-07-05 19:21:28 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'message_id' cannot be null
+Request URL: /fdc_messageboard/api/v1/message
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('INSERT INTO `fd...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(1132): DboSource->execute('INSERT INTO `fd...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(1942): DboSource->create(Object(AppModel), Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/MessagesController.php(189): Model->save(Array)
+#6 [internal function]: MessagesController->addMessage()
+#7 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest))
+#10 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2024-07-05 19:25:19 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'message_id' cannot be null
+Request URL: /fdc_messageboard/api/v1/message
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('INSERT INTO `fd...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(1132): DboSource->execute('INSERT INTO `fd...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(1942): DboSource->create(Object(AppModel), Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/MessagesController.php(165): Model->save(Array)
+#6 [internal function]: MessagesController->addMessage()
+#7 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest))
+#10 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}

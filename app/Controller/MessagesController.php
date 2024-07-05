@@ -154,29 +154,26 @@ class MessagesController extends AppController
     public function addMessage(){
         if ($this->request->is('post')) {
             $json = json_decode($this->request->input());
+            $id = $this->readCookie('user');
             
-            for ($i=0; $i < count($json->ids); $i++) { 
-                $this->loadModel('Message');
-                $id = $this->readCookie('user');
-                $data = array(
-                    'user_id' => $id,
-                    'message_id' => $json->ids[$i],
-                    'message' => $json->msg,
-                    'created' => $this->getDate()
-                );
-                $res = $this->Message->save($data);
-                $data = json_decode(json_encode($res),true);
+            $data = array(
+                'user_id' => $id,
+                'message_id' => $json->ids[0],
+                'message' => $json->msg,
+                'created' => $this->getDate()
+            );
+            $res = $this->Message->save($data);
+            $data = json_decode(json_encode($res),true);
 
-                $this->loadModel('List');
-                $this->List->save(array(
-                    'List' => array(
-                        'userid' => $id,
-                        'message_id' => $data['Message']['id'],
-                        'created' =>  $this->getDate(),
-                        'msg_id' => $json->ids[$i]
-                    )
-                ));
-            }
+            $this->loadModel('List');
+            $this->List->save(array(
+                'List' => array(
+                    'userid' => $id,
+                    'message_id' => $data['Message']['id'],
+                    'created' =>  $this->getDate(),
+                    'msg_id' => $json->ids[0]
+                )
+            ));
 
             $this->ret(201,'Successfully added');
         }else
