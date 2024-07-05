@@ -17,7 +17,21 @@ class UsersController extends AppController
             $this->loadModel('User');
             $data = $this->User->find('all', array(
                 'conditions' => array(
-                    'User.id' => $this->Session->read('userid'),
+                    'User.id' => $this->readCookie('user'),
+                ),
+            ));
+            $this->ret(201,$data);
+        }else
+            $this->ret(401,'Invalid request');
+    }
+
+    public function getUserDetail(){
+        if ($this->request->is('post')) {
+            $json = json_decode($this->request->input());
+            $this->loadModel('User');
+            $data = $this->User->find('all', array(
+                'conditions' => array(
+                    'User.id' => $json->userid,
                 ),
             ));
             $this->ret(201,$data);
@@ -96,10 +110,10 @@ class UsersController extends AppController
         if ($this->request->is('post')){
             $json = json_decode($this->request->input());
             $this->loadModel('User');
-            $user = $this->User->findById($json->id);
+            $user = $this->User->findById($this->readCookie('user'));
             if ($user) {
                 if ($this->User->save(array(
-                    'id' => $json->id,
+                    'id' => $this->readCookie('user'),
                     'img_url' => $json->img_url,
                     'name' => strtoupper($json->name),
                     'birthdate' => $json->birthdate,
@@ -113,8 +127,9 @@ class UsersController extends AppController
             }else
                 $this->ret(401,'User not found');
         }else
-            $this->ret(201,'Invalid request');
+            $this->ret(401,'Invalid request');
     }
+    
 
     public function delete(){
         if ($this->request->is('post')){
@@ -217,6 +232,16 @@ class UsersController extends AppController
         $secret = $this->Secret->findByUser_id($id);
         if ($secret)
             $this->Secret->delete($secret['Secret']['id']);
+    }
+    private function uploadImage($source){
+        // Destination file path (the new location for the image)
+        $destination = getcwd().'/profiles/'.$this->getFilename($source);
+
+        return rename($source, $destination);
+    }
+    private function getFilename($url){
+        $expl = explode("\\\\",$url);
+        return $expl[count($expl)-1];
     }
 }
 

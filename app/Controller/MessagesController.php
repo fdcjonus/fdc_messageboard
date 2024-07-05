@@ -4,46 +4,106 @@ App::uses('AppController', 'Controller');
 class MessagesController extends AppController
 {
     public $components = array('RequestHandler','Paginator');
+    public $uses = array('Message','List');
 
     public function getMessageByUser(){
         if ($this->request->is('post')) {
             try {
+                // $json = json_decode($this->request->input());
+                // $id = $this->readCookie('user');
+
+                // $this->paginate = array(
+                //     'conditions' => array(
+                //         'OR' => array(
+                //             array(
+                //                 'user_id' => $json->userid,
+                //                 'message_id' => $json->message_id
+                //             ),
+                //             array(
+                //                 'user_id' => $json->message_id,
+                //                 'message_id' => $json->userid
+                //             )
+                //         ),
+                //     ),
+                //     'limit' => $json->limit,
+                //     'page' => $json->page,
+                //     'order' => array('id' => 'desc')
+                // );
+        
+                // // Paginate the User model with custom query join
+                // $messages = $this->paginate('Message');
+                // $this->ret(200,$messages);
+
                 $json = json_decode($this->request->input());
-            
-                $this->Paginator->settings = array(
-                    'page' => $json->page,
-                    'limit' => $json->limit,
-                    'order' => array('message_id' => 'desc')
-                );
 
-                // Paginate the User model
-                $data = $this->Paginator->paginate('Message', array(
-                                                                    'user_id' => $json->userid,
-                                                                    // 'message_id' => $json->message_id
-                                                                ));
-
-                // Get pagination metadata
-                $paginationMeta = $this->request->params['paging']['Message'];
-
-                // Construct response data including paginated data and pagination metadata
-                $responseData = array(
-                    'success' => true,
-                    'data' => $data,
-                    'paging' => array(
-                        'page' => $paginationMeta['page'], // Current page number
-                        'totalPages' => $paginationMeta['pageCount'], // Total number of pages
-                        'totalCount' => $paginationMeta['count'] // Total number of records
+                $this->paginate = array(
+                    'fields' => array('List.id','List.userid','List.msg_id','User.name','User.img_url','Message.id','Message.message','Message.created'), // Select fields from both tables
+                    'joins' => array(
+                        array(
+                            'table' => 'lists',
+                            'alias' => 'List',
+                            'type' => 'INNER',
+                            'conditions' => array(
+                                'Message.id = List.message_id'
+                            ),
+                        ),
+                        array(
+                            'table' => 'users',
+                            'alias' => 'User',
+                            'type' => 'INNER',
+                            'conditions' => array(
+                                'User.id = List.userid'
+                            )
+                        )
                     ),
-                    'message' => 'Paginated data retrieved successfully'
+                    'conditions' => array(
+                        'OR' => array(
+                            array(
+                                'List.userid' => $json->userid,
+                                'List.msg_id' => $json->message_id
+                            ),
+                            array(
+                                'List.userid' => $json->message_id,
+                                'List.msg_id' => $json->userid
+                            )
+                        ),
+                    ),
+                    'limit' => $json->limit,
+                    'page' => $json->page,
+                    'order' => array('Message.created' => 'desc')
                 );
-
-                // Convert response data to JSON and send response
-                $this->autoRender = false; // Disable view rendering
-                $this->response->type('json'); // Set response content type
-                $this->response->body(json_encode($responseData)); // Set response body
-                return $this->response; // Return the response
+        
+                // Paginate the User model with custom query join
+                $messages = $this->paginate('Message');
+                $this->ret(200,$messages);
             } catch (NotFoundException $th) {
-                $this->ret(401,'Invalid request');
+                $this->ret(501,'Internal Server Error');
+            }
+        }else
+            $this->ret(401,'Invalid request');
+    }
+
+    public function searchMessage(){
+        if ($this->request->is('post')) {
+            try {
+                $json = json_decode($this->request->input());
+                $id = $this->readCookie('user');
+
+                $this->paginate = array(
+                    'conditions' => array(
+                        'message LIKE ' => '%'.$json->search.'%',
+                        'user_id' => $this->readCookie('user'),
+                    ),
+                    'limit' => $json->limit,
+                    'page' => $json->page,
+                    'order' => array('id' => 'desc')
+                );
+        
+                // Paginate the User model with custom query join
+                $messages = $this->paginate('Message');
+                $this->ret(200,$messages);
+            } catch (Exception $th) {
+                $this->ret(501,'Internal Server Error');
             }
         }else
             $this->ret(401,'Invalid request');
@@ -94,25 +154,30 @@ class MessagesController extends AppController
     public function addMessage(){
         if ($this->request->is('post')) {
             $json = json_decode($this->request->input());
-            $this->loadModel('Message');
-            $data = array(
-                'user_id' => $json->userid,
-                'message_id' => $json->message_id,
-                'message' => $json->message,
-                'created' => $this->getDate()
-            );
-            $res = $this->Message->save($data);
-            $data = json_decode(json_encode($res),true);
+            
+            for ($i=0; $i < count($json->ids); $i++) { 
+                $this->loadModel('Message');
+                $id = $this->readCookie('user');
+                $data = array(
+                    'user_id' => $id,
+                    'message_id' => $json->ids[$i],
+                    'message' => $json->msg,
+                    'created' => $this->getDate()
+                );
+                $res = $this->Message->save($data);
+                $data = json_decode(json_encode($res),true);
 
-            $this->loadModel('List');
-            $this->List->save(array(
-                'List' => array(
-                    'userid' => $data['Message']['user_id'],
-                    'message_id' => $data['Message']['id'],
-                    'created' =>  $this->getDate(),
-                    'msg_id' => $json->message_id
-                )
-            ));
+                $this->loadModel('List');
+                $this->List->save(array(
+                    'List' => array(
+                        'userid' => $id,
+                        'message_id' => $data['Message']['id'],
+                        'created' =>  $this->getDate(),
+                        'msg_id' => $json->ids[$i]
+                    )
+                ));
+            }
+
             $this->ret(201,'Successfully added');
         }else
             $this->ret(401,'Invalid request');
@@ -170,13 +235,13 @@ class MessagesController extends AppController
     }
 
 
-    private function readCookie() {
+    private function readCookie($name) {
         // Load the CookieComponent
         $this->Cookie = $this->Components->load('Cookie');
         // Check if the cookie exists
-        if ($this->Cookie->check('UserToken')) {
+        if ($this->Cookie->check($name)) {
             // Read the cookie data
-            $cookieData = $this->Cookie->read('UserToken');
+            $cookieData = $this->Cookie->read($name);
             // Access the cookie data
             return $cookieData['value'];
         } else 

@@ -57,32 +57,48 @@ class ListsController extends AppController
                 // $this->response->body(json_encode($responseData)); // Set response body
                 // return $this->response; // Return the response
 
+                $json = json_decode($this->request->input());
+                $id = $this->readCookie('user');
+
                 $this->paginate = array(
-                    'fields' => array('List.*', 'Message.*'), // Select fields from both tables
+                    'fields' => array('List.id','List.userid','List.msg_id','User.name','User.img_url','Message.id','Message.message','Message.created'), // Select fields from both tables
                     'joins' => array(
                         array(
-                            'table' => 'lists',
-                            'alias' => 'List',
+                            'table' => 'messages',
+                            'alias' => 'Message',
+                            'type' => 'INNER',
+                            'conditions' => array(
+                                'Message.id = List.message_id'
+                            ),
+                        ),
+                        array(
+                            'table' => 'users',
+                            'alias' => 'User',
                             'type' => 'LEFT',
                             'conditions' => array(
-                                'OR' => array(
-                                    array(
-                                        'List.userid' => 1,
-                                    ),
-                                    array(
-                                        'List.msg_id' => 1
-                                    )
-                                )
+                                'List.userid = User.id'
                             )
                         )
                     ),
-                    'limit' => 10,
-                    'order' => array('List.id' => 'desc') // Example ordering
+                    'conditions' => array(
+                        'OR' => array(
+                            array(
+                                'List.userid' => $id,
+                            ),
+                            array(
+                                'List.msg_id' => $id
+                            )
+                        ),
+                    ),
+                    'group' => array('List.userid'),
+                    'limit' => $json->limit,
+                    'page' => $json->page,
+                    'order' => array('List.id' => 'desc')
                 );
         
                 // Paginate the User model with custom query join
-                $users = $this->paginate('List');
-                $this->ret(201,$users);
+                $messages = $this->paginate('List');
+                $this->ret(200,$messages);
             } catch (Exception $th) {
                 $this->ret(501,$th->getMessage());
             }

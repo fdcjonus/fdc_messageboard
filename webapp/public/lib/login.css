@@ -1,0 +1,24 @@
+.main-page {
+  height: 100vh;
+}
+.login_form {
+  width: 350px;
+  height: 500px;
+  margin-top: 25vh;
+}
+.left-page {
+  height: 100vh;
+}
+.logo1 {
+  margin-top: 15vh;
+  padding-left: 150px;
+}
+.color1 {
+  color: #2e4053;
+}
+.color2 {
+  color: #808b96;
+}
+.f-sm {
+  font-size: 13px;
+}

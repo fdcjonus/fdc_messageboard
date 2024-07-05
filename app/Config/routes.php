@@ -34,6 +34,7 @@
 
 	// API URL
 	// for user
+	Router::connect('/api/v1/userdet', array('controller' => 'users', 'action' => 'getUserDetail', 'ext' => 'json'));
 	Router::connect('/api/v1/users', array('controller' => 'users', 'action' => 'getUsers', 'ext' => 'json'));
 	Router::connect('/api/v1/user', array('controller' => 'users', 'action' => 'getUsersById', 'ext' => 'json'));
 	Router::connect('/api/v1/login', array('controller' => 'users', 'action' => 'login', 'ext' => 'json'));
@@ -52,6 +53,7 @@
 	Router::connect('/api/v1/message/deletes', array('controller' => 'messages', 'action' => 'deleteAll', 'ext' => 'json'));
 	Router::connect('/api/v1/message/delete/user', array('controller' => 'messages', 'action' => 'deleteAllByUser', 'ext' => 'json'));
 	Router::connect('/api/v1/message/get', array('controller' => 'messages', 'action' => 'getMessage', 'ext' => 'json'));
+	Router::connect('/api/v1/message/search', array('controller' => 'messages', 'action' => 'searchMessage', 'ext' => 'json'));
 /**
  * Load all plugin routes. See the CakePlugin documentation on
  * how to customize the loading of plugin routes.

@@ -7477,3 +7477,481 @@ Stack Trace:
 #1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ListsController), Object(CakeRequest))
 #2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2024-07-04 04:26:12 Error: [ParseError] syntax error, unexpected ';', expecting ')'
+Request URL: /fdc_messageboard/api/v1/lists
+Stack Trace:
+#0 [internal function]: App::load('ListsController')
+#1 [internal function]: spl_autoload_call('ListsController')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(266): class_exists('ListsController')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-07-04 04:27:47 Error: [ParseError] syntax error, unexpected ''limit'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /fdc_messageboard/api/v1/lists
+Stack Trace:
+#0 [internal function]: App::load('ListsController')
+#1 [internal function]: spl_autoload_call('ListsController')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(266): class_exists('ListsController')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-07-04 04:27:48 Error: [ParseError] syntax error, unexpected ''limit'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /fdc_messageboard/api/v1/lists
+Stack Trace:
+#0 [internal function]: App::load('ListsController')
+#1 [internal function]: spl_autoload_call('ListsController')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(266): class_exists('ListsController')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-07-04 04:27:49 Error: [ParseError] syntax error, unexpected ''limit'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /fdc_messageboard/api/v1/lists
+Stack Trace:
+#0 [internal function]: App::load('ListsController')
+#1 [internal function]: spl_autoload_call('ListsController')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(266): class_exists('ListsController')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-07-04 07:06:06 Error: [MissingModelException] List
+Request URL: /fdc_messageboard/api/v1/messages
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(1107): PaginatorComponent->paginate('List', Array, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/MessagesController.php(84): Controller->paginate('List')
+#2 [internal function]: MessagesController->getMessageByUser()
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest))
+#6 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2024-07-04 07:08:39 Error: [MissingModelException] List
+Request URL: /fdc_messageboard/api/v1/messages
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(1107): PaginatorComponent->paginate('List', Array, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/MessagesController.php(83): Controller->paginate('List')
+#2 [internal function]: MessagesController->getMessageByUser()
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest))
+#6 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2024-07-04 07:08:42 Error: [MissingModelException] List
+Request URL: /fdc_messageboard/api/v1/messages
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(1107): PaginatorComponent->paginate('List', Array, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/MessagesController.php(83): Controller->paginate('List')
+#2 [internal function]: MessagesController->getMessageByUser()
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest))
+#6 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2024-07-04 07:10:16 Error: [MissingModelException] List
+Request URL: /fdc_messageboard/api/v1/messages
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(1107): PaginatorComponent->paginate('List', Array, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/MessagesController.php(83): Controller->paginate('List')
+#2 [internal function]: MessagesController->getMessageByUser()
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest))
+#6 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2024-07-04 07:10:19 Error: [MissingModelException] List
+Request URL: /fdc_messageboard/api/v1/messages
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(1107): PaginatorComponent->paginate('List', Array, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/MessagesController.php(83): Controller->paginate('List')
+#2 [internal function]: MessagesController->getMessageByUser()
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest))
+#6 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2024-07-04 07:11:19 Error: [MissingModelException] List
+Request URL: /fdc_messageboard/api/v1/messages
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(1107): PaginatorComponent->paginate('List', Array, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/MessagesController.php(83): Controller->paginate('List')
+#2 [internal function]: MessagesController->getMessageByUser()
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest))
+#6 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2024-07-04 07:11:27 Error: [MissingModelException] List
+Request URL: /fdc_messageboard/api/v1/messages
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(1107): PaginatorComponent->paginate('List', Array, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/MessagesController.php(83): Controller->paginate('List')
+#2 [internal function]: MessagesController->getMessageByUser()
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest))
+#6 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2024-07-04 07:11:34 Error: [MissingModelException] List
+Request URL: /fdc_messageboard/api/v1/messages
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(1107): PaginatorComponent->paginate('List', Array, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/MessagesController.php(83): Controller->paginate('List')
+#2 [internal function]: MessagesController->getMessageByUser()
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest))
+#6 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2024-07-04 07:11:34 Error: [MissingModelException] List
+Request URL: /fdc_messageboard/api/v1/messages
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(1107): PaginatorComponent->paginate('List', Array, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/MessagesController.php(83): Controller->paginate('List')
+#2 [internal function]: MessagesController->getMessageByUser()
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest))
+#6 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2024-07-04 16:21:27 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'message_id' cannot be null
+Request URL: /fdc_messageboard/api/v1/message
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('INSERT INTO `fd...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(1132): DboSource->execute('INSERT INTO `fd...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(1942): DboSource->create(Object(AppModel), Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/MessagesController.php(132): Model->save(Array)
+#6 [internal function]: MessagesController->addMessage()
+#7 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest))
+#10 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2024-07-04 16:23:04 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'message' cannot be null
+Request URL: /fdc_messageboard/api/v1/message
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('INSERT INTO `fd...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(1132): DboSource->execute('INSERT INTO `fd...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(1942): DboSource->create(Object(AppModel), Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/MessagesController.php(132): Model->save(Array)
+#6 [internal function]: MessagesController->addMessage()
+#7 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest))
+#10 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2024-07-04 16:25:49 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'message' cannot be null
+Request URL: /fdc_messageboard/api/v1/message
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('INSERT INTO `fd...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(1132): DboSource->execute('INSERT INTO `fd...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(1942): DboSource->create(Object(AppModel), Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/MessagesController.php(132): Model->save(Array)
+#6 [internal function]: MessagesController->addMessage()
+#7 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest))
+#10 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2024-07-04 16:32:23 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'msg_id' cannot be null
+Request URL: /fdc_messageboard/api/v1/message
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('INSERT INTO `fd...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(1132): DboSource->execute('INSERT INTO `fd...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(1942): DboSource->create(Object(AppModel), Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/MessagesController.php(141): Model->save(Array)
+#6 [internal function]: MessagesController->addMessage()
+#7 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest))
+#10 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2024-07-04 16:35:30 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'message_id' cannot be null
+Request URL: /fdc_messageboard/api/v1/message
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('UPDATE `fdc_jon...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/Database/Mysql.php(425): DboSource->execute('UPDATE `fdc_jon...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(1926): Mysql->update(Object(AppModel), '`userid` = 1, `...', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/MessagesController.php(141): Model->save(Array)
+#6 [internal function]: MessagesController->addMessage()
+#7 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest))
+#10 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2024-07-04 16:42:24 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'message_id' cannot be null
+Request URL: /fdc_messageboard/api/v1/message
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('UPDATE `fdc_jon...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/Database/Mysql.php(425): DboSource->execute('UPDATE `fdc_jon...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(1926): Mysql->update(Object(AppModel), '`userid` = 1, `...', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/MessagesController.php(141): Model->save(Array)
+#6 [internal function]: MessagesController->addMessage()
+#7 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest))
+#10 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2024-07-04 16:59:38 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'message_id' cannot be null
+Request URL: /fdc_messageboard/api/v1/message
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('INSERT INTO `fd...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(1132): DboSource->execute('INSERT INTO `fd...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(1942): DboSource->create(Object(AppModel), Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/MessagesController.php(132): Model->save(Array)
+#6 [internal function]: MessagesController->addMessage()
+#7 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest))
+#10 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2024-07-04 17:00:24 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'message_id' cannot be null
+Request URL: /fdc_messageboard/api/v1/message
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('INSERT INTO `fd...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(1132): DboSource->execute('INSERT INTO `fd...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(1942): DboSource->create(Object(AppModel), Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/MessagesController.php(132): Model->save(Array)
+#6 [internal function]: MessagesController->addMessage()
+#7 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest))
+#10 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2024-07-05 11:25:03 Error: [ArgumentCountError] Too few arguments to function UsersController::getFilename(), 0 passed in /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php on line 223 and exactly 1 expected
+Request URL: /fdc_messageboard/api/v1/update
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php(223): UsersController->getFilename()
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/UsersController.php(110): UsersController->uploadImage('C:\\fakepath\\fdc...')
+#2 [internal function]: UsersController->update()
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#6 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2024-07-05 10:19:40 Error: [MissingControllerException] Controller class ApiController could not be found.
+Exception Attributes: array (
+  'class' => 'ApiController',
+  'plugin' => NULL,
+)
+Request URL: /fdc_messageboard/api/v1/search
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-07-05 10:19:42 Error: [MissingControllerException] Controller class ApiController could not be found.
+Exception Attributes: array (
+  'class' => 'ApiController',
+  'plugin' => NULL,
+)
+Request URL: /fdc_messageboard/api/v1/search
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-07-05 10:21:03 Error: [MissingControllerException] Controller class ApiController could not be found.
+Exception Attributes: array (
+  'class' => 'ApiController',
+  'plugin' => NULL,
+)
+Request URL: /fdc_messageboard/api/v1/search
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-07-05 10:21:04 Error: [MissingControllerException] Controller class ApiController could not be found.
+Exception Attributes: array (
+  'class' => 'ApiController',
+  'plugin' => NULL,
+)
+Request URL: /fdc_messageboard/api/v1/search
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-07-05 10:25:04 Error: [MissingControllerException] Controller class ApiController could not be found.
+Exception Attributes: array (
+  'class' => 'ApiController',
+  'plugin' => NULL,
+)
+Request URL: /fdc_messageboard/api/v1/search
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2024-07-05 10:50:48 Error: [ParseError] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /fdc_messageboard/api/v1/messages
+Stack Trace:
+#0 [internal function]: App::load('MessagesControl...')
+#1 [internal function]: spl_autoload_call('MessagesControl...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(266): class_exists('MessagesControl...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-07-05 10:50:53 Error: [ParseError] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /fdc_messageboard/api/v1/messages
+Stack Trace:
+#0 [internal function]: App::load('MessagesControl...')
+#1 [internal function]: spl_autoload_call('MessagesControl...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(266): class_exists('MessagesControl...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-07-05 10:50:56 Error: [ParseError] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /fdc_messageboard/api/v1/messages
+Stack Trace:
+#0 [internal function]: App::load('MessagesControl...')
+#1 [internal function]: spl_autoload_call('MessagesControl...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(266): class_exists('MessagesControl...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-07-05 10:50:59 Error: [ParseError] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /fdc_messageboard/api/v1/messages
+Stack Trace:
+#0 [internal function]: App::load('MessagesControl...')
+#1 [internal function]: spl_autoload_call('MessagesControl...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(266): class_exists('MessagesControl...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-07-05 10:51:00 Error: [ParseError] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /fdc_messageboard/api/v1/messages
+Stack Trace:
+#0 [internal function]: App::load('MessagesControl...')
+#1 [internal function]: spl_autoload_call('MessagesControl...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(266): class_exists('MessagesControl...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-07-05 10:51:00 Error: [ParseError] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /fdc_messageboard/api/v1/messages
+Stack Trace:
+#0 [internal function]: App::load('MessagesControl...')
+#1 [internal function]: spl_autoload_call('MessagesControl...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(266): class_exists('MessagesControl...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-07-05 10:51:00 Error: [ParseError] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /fdc_messageboard/api/v1/messages
+Stack Trace:
+#0 [internal function]: App::load('MessagesControl...')
+#1 [internal function]: spl_autoload_call('MessagesControl...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(266): class_exists('MessagesControl...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-07-05 10:51:01 Error: [ParseError] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /fdc_messageboard/api/v1/messages
+Stack Trace:
+#0 [internal function]: App::load('MessagesControl...')
+#1 [internal function]: spl_autoload_call('MessagesControl...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(266): class_exists('MessagesControl...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-07-05 10:55:11 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'List'
+Request URL: /fdc_messageboard/api/v1/messages
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('SELECT `List`.`...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('SELECT `List`.`...', Array, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(1226): DboSource->fetchAll('SELECT `List`.`...', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(3053): DboSource->read(Object(AppModel), Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(3025): Model->_readDataSource('all', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Component/PaginatorComponent.php(212): Model->find('all', Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(1107): PaginatorComponent->paginate(Object(AppModel), Array, Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/MessagesController.php(112): Controller->paginate('List')
+#9 [internal function]: MessagesController->getMessageByUser()
+#10 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest))
+#13 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2024-07-05 11:30:35 Error: [ParseError] syntax error, unexpected ''group'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /fdc_messageboard/api/v1/lists
+Stack Trace:
+#0 [internal function]: App::load('ListsController')
+#1 [internal function]: spl_autoload_call('ListsController')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(266): class_exists('ListsController')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-07-05 11:31:55 Error: [ParseError] syntax error, unexpected ''group'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /fdc_messageboard/api/v1/lists
+Stack Trace:
+#0 [internal function]: App::load('ListsController')
+#1 [internal function]: spl_autoload_call('ListsController')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(266): class_exists('ListsController')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2024-07-05 18:31:44 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null
+Request URL: /fdc_messageboard/api/v1/message
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('INSERT INTO `fd...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(1132): DboSource->execute('INSERT INTO `fd...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(1942): DboSource->create(Object(AppModel), Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/MessagesController.php(167): Model->save(Array)
+#6 [internal function]: MessagesController->addMessage()
+#7 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest))
+#10 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2024-07-05 18:31:45 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null
+Request URL: /fdc_messageboard/api/v1/message
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('INSERT INTO `fd...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(1132): DboSource->execute('INSERT INTO `fd...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(1942): DboSource->create(Object(AppModel), Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/MessagesController.php(167): Model->save(Array)
+#6 [internal function]: MessagesController->addMessage()
+#7 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest))
+#10 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2024-07-05 18:31:46 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null
+Request URL: /fdc_messageboard/api/v1/message
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('INSERT INTO `fd...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Datasource/DboSource.php(1132): DboSource->execute('INSERT INTO `fd...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(1942): DboSource->create(Object(AppModel), Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/Controller/MessagesController.php(167): Model->save(Array)
+#6 [internal function]: MessagesController->addMessage()
+#7 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(MessagesController), Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest))
+#10 /Applications/XAMPP/xamppfiles/htdocs/fdc_messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}

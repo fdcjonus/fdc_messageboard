@@ -1,0 +1,8 @@
+.main-page-msg {
+  height: 70vh;
+}
+.message-msg {
+  height: 70vh;
+  overflow: auto;
+  font-size: 13px;
+}

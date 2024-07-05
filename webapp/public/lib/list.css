@@ -1,0 +1,16 @@
+.f-small-list {
+  font-size: 14px;
+}
+.main-page-list {
+  height: 70vh;
+}
+.message-list {
+  height: 70vh;
+  overflow: auto;
+  font-size: 13px;
+}
+.search-list {
+  margin-top: 5px;
+  height: 30px;
+  width: 250px;
+}
