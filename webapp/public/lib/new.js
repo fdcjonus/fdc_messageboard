@@ -43,6 +43,8 @@ $("#send-message").click(function () {
     msg: $("#msg").val(),
     ids: $("#users-name").val(),
   };
+
+  console.log($("#users-name").val());
   var auth =
     "Basic " + btoa("myapp:obyJJpDtIxcZgd7Kd0YBFRDpAMBgi9Q1bsCZkwK7Mn6AyRJsg2");
 
